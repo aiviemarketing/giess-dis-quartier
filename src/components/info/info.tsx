@@ -71,7 +71,7 @@ export const Info: React.FC = () => {
 										label={i18n.info.about.head.slackButton}
 										onClick={() => {
 											window.open(
-												"https://join.slack.com/t/giessdenkiez/shared_invite/zt-e3et281u-xON4UmBZpKavzDRkw5HmCQ",
+												"https://github.com/aiviemarketing/guess-dis-quartier/issues",
 												"_blank",
 											);
 										}}

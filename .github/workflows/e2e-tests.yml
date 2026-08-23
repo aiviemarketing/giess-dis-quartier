@@ -93,7 +93,7 @@ jobs:
         id: checkout-api
         uses: actions/checkout@v4
         with:
-          repository: technologiestiftung/giessdenkiez-de-postgres-api
+          repository: aiviemarketing/guess-dis-quartier-postgres-api
           ref: "staging"
           path: api
 

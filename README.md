@@ -6,15 +6,15 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-# Giess dis Quartier
+# Güss dis Quartier
 
-Giess dis Quartier is the local Zürich MVP of the open-source
+Güss dis Quartier is the local Zürich MVP of the open-source
 [Giess den Kiez](https://github.com/technologiestiftung/giessdenkiez-de)
 platform.
 
 ## About
 
-Hotter, drier summers put pressure on Zürich’s urban trees. Giess dis Quartier
+Hotter, drier summers put pressure on Zürich’s urban trees. Güss dis Quartier
 adapts the established Giess den Kiez interaction model for Zürich: residents
 can find nearby trees, see their watering context, create a profile, adopt
 trees, and record watering.
@@ -33,9 +33,9 @@ on that work and preserves its upstream attribution.
 
 This project is composed of multiple repositories:
 
-- [React frontend (this repository)](https://github.com/aiviemarketing/giess-dis-Quartier)
-- [Postgres API and local data adapters](https://github.com/aiviemarketing/giess-dis-quartier-postgres-api)
-- [Weather repository](https://github.com/aiviemarketing/giess-dis-quartier-weather)
+- [React frontend (this repository)](https://github.com/aiviemarketing/guess-dis-quartier)
+- [Postgres API and local data adapters](https://github.com/aiviemarketing/guess-dis-quartier-postgres-api)
+- [Weather repository](https://github.com/aiviemarketing/guess-dis-quartier-weather)
 
 The original project’s additional upstream repositories remain useful
 references for the base architecture and historical Berlin implementation.
@@ -53,7 +53,7 @@ To run the local Zürich MVP, follow [gdq/README.md](./gdq/README.md). It
 includes the local Supabase, Mapbox, tree, and fountain setup.
 
 The delivery plan is in
-[gdq/docs/plan/giess-dis-quartier-final-mvp-plan.md](./gdq/docs/plan/giess-dis-quartier-final-mvp-plan.md).
+[gdq/docs/plan/guess-dis-quartier-final-mvp-plan.md](./gdq/docs/plan/guess-dis-quartier-final-mvp-plan.md).
 For upstream development details, see [README_DEV.md](./README_DEV.md) and the
 [original project wiki](https://github.com/technologiestiftung/giessdenkiez-de/wiki).
 
@@ -67,9 +67,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/adiux"><img src="https://avatars.githubusercontent.com/u/13075514?v=4?s=100" width="100px;" alt="Adrian Schimpf"/><br /><sub><b>Adrian Schimpf</b></sub></a><br /><a href="https://github.com/aiviemarketing/giess-dis-quartier/commits/main/?author=adiux" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/adiux"><img src="https://avatars.githubusercontent.com/u/13075514?v=4?s=100" width="100px;" alt="Adrian Schimpf"/><br /><sub><b>Adrian Schimpf</b></sub></a><br /><a href="https://github.com/aiviemarketing/guess-dis-quartier/commits/main/?author=adiux" title="Code">💻</a></td>
     </tr>
-
 
   </tbody>
 </table>

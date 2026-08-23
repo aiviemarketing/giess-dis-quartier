@@ -85,8 +85,8 @@ export const Splash: React.FC = () => {
 					<div className="flex flex-col lg:flex-row justify-between w-full">
 						<div className="flex flex-row justify-between">
 							<div className="text-3xl font-bold flex-row flex gap-1 lg:translate-y-5">
-								<span>Gieß den</span>{" "}
-								<span className="text-gdk-neon-green"> Kiez</span>
+								<span>Güss dis</span>{" "}
+								<span className="text-gdk-neon-green"> Quartier</span>
 								<div className="-translate-y-3">
 									<SplashTreeIcon />
 								</div>
@@ -183,7 +183,7 @@ export const Splash: React.FC = () => {
 					<div className="text-sm">{i18n.splash.questionSubheadline}</div>
 					<div className="text-sm">
 						<ExternalAnchorLink
-							href="https://deinestadt.giessdenkiez.de/"
+							href="https://github.com/aiviemarketing/guess-dis-quartier"
 							label={i18n.splash.discoverMoreTitle}
 						></ExternalAnchorLink>
 					</div>

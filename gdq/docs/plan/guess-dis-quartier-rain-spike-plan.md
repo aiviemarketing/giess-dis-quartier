@@ -1,4 +1,4 @@
-# Giess dis Quartier — MeteoSwiss CPC integration
+# Güss dis Quartier — MeteoSwiss CPC integration
 
 Status: 15 August 2026
 
@@ -26,16 +26,16 @@ summer storms can differ substantially across the city.
 The currently verified official source is the MeteoSwiss STAC collection
 `ch.meteoschweiz.ogd-radar-precip`.
 
-| Property | Verified value |
-| --- | --- |
-| Product | CPC / CombiPrecip 60-minute total |
-| Unit | mm (equivalent to l/m²) |
-| Nominal spatial resolution | 1 km × 1 km |
-| Delivery | current rolling total every five minutes; hourly reanalysis after eight days |
-| Projection | file-declared Swiss oblique Mercator; MeteoSwiss documents Swiss LV95 / EPSG:2056 |
-| STAC availability | rolling last 14 days |
-| Product archive | CPC exists from 2005; archive access is separate from STAC retention |
-| Licence | CC BY; cite MeteoSwiss when reproducing or redistributing |
+| Property                   | Verified value                                                                    |
+| -------------------------- | --------------------------------------------------------------------------------- |
+| Product                    | CPC / CombiPrecip 60-minute total                                                 |
+| Unit                       | mm (equivalent to l/m²)                                                           |
+| Nominal spatial resolution | 1 km × 1 km                                                                       |
+| Delivery                   | current rolling total every five minutes; hourly reanalysis after eight days      |
+| Projection                 | file-declared Swiss oblique Mercator; MeteoSwiss documents Swiss LV95 / EPSG:2056 |
+| STAC availability          | rolling last 14 days                                                              |
+| Product archive            | CPC exists from 2005; archive access is separate from STAC retention              |
+| Licence                    | CC BY; cite MeteoSwiss when reproducing or redistributing                         |
 
 ## Existing Gieß den Kiez contract
 

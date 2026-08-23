@@ -1,10 +1,10 @@
-# Giess dis Quartier – Final MVP Implementation Plan
+# Güss dis Quartier – Final MVP Implementation Plan
 
 Status: 15 August 2026
 
 ## 1. Objective
 
-`Giess dis Quartier` is a Swiss adaptation of **Gieß den Kiez**.
+`Güss dis Quartier` is a Swiss adaptation of **Gieß den Kiez**.
 
 The primary goal is:
 
@@ -20,16 +20,16 @@ The three forks already exist and are checked out here:
 
 ```text
 /Users/Adrian/src/gdq/
-├── giess-dis-quartier
-├── giess-dis-quartier-postgres-api
-└── giess-dis-quartier-weather
+├── guess-dis-quartier
+├── guess-dis-quartier-postgres-api
+└── guess-dis-quartier-weather
 ```
 
 These are the intended project repositories.
 
 ## Repository roles
 
-### `giess-dis-quartier`
+### `guess-dis-quartier`
 
 Fork of:
 
@@ -49,7 +49,7 @@ Responsibilities:
 - frontend branding
 - production Firebase Hosting build
 
-### `giess-dis-quartier-postgres-api`
+### `guess-dis-quartier-postgres-api`
 
 Fork of:
 
@@ -70,7 +70,7 @@ Responsibilities:
 - Zurich fountain conversion / publication
 - CPC compatibility migration
 
-### `giess-dis-quartier-weather`
+### `guess-dis-quartier-weather`
 
 Fork of:
 
@@ -101,10 +101,10 @@ Zurich fountain data is simple enough to transform with a dedicated script in th
 ```text
 MacBook Pro
 │
-├── giess-dis-quartier
+├── guess-dis-quartier
 │   └── localhost:5173
 │
-├── giess-dis-quartier-postgres-api
+├── guess-dis-quartier-postgres-api
 │   └── local Supabase in Docker
 │       ├── PostgreSQL
 │       ├── PostGIS
@@ -113,7 +113,7 @@ MacBook Pro
 │       ├── Edge Functions
 │       └── Storage
 │
-├── giess-dis-quartier-weather
+├── guess-dis-quartier-weather
 │   └── MeteoSwiss CPC harvester
 │
 └── Mapbox
@@ -191,7 +191,7 @@ The goal is to keep future upstream merges practical.
 - Zurich fountains as water sources
 - MeteoSwiss CPC precipitation
 - existing GdK rain / watering calculation
-- Giess dis Quartier branding
+- Güss dis Quartier branding
 - local reproducible setup
 - production deployment after local acceptance
 
@@ -247,7 +247,7 @@ npx supabase --version
 From:
 
 ```bash
-cd /Users/Adrian/src/gdq/giess-dis-quartier-postgres-api
+cd /Users/Adrian/src/gdq/guess-dis-quartier-postgres-api
 ```
 
 Install dependencies:
@@ -298,7 +298,7 @@ Verify that the frontend can call the functions required by:
 From:
 
 ```bash
-cd /Users/Adrian/src/gdq/giess-dis-quartier
+cd /Users/Adrian/src/gdq/guess-dis-quartier
 ```
 
 Install:
@@ -405,28 +405,28 @@ radolan_days
 
 Target mapping:
 
-| Zurich | GdK | Handling |
-|---|---|---|
-| `baumnummer` | `id` | use official stable ID |
-| geometry latitude | `lat` | derive |
-| geometry longitude | `lng` | derive |
-| German species name | `artdtsch` | map from Zurich source |
-| botanical species | `artbot` | map from Zurich source |
-| genus | `gattung` | derive if needed |
-| German genus | `gattungdeutsch` | source or derived |
-| `strasse` | `strname` | direct |
-| `pflanzjahr` | `pflanzjahr` | normalize |
-| `quartier` | `bezirk` | direct conceptual mapping |
-| `kategorie` | `type` | optional |
-| geometry | `geom` | `SRID=4326;POINT(lng lat)` |
-| `baumnummer` | `standortnr` | optional source reference |
+| Zurich              | GdK              | Handling                   |
+| ------------------- | ---------------- | -------------------------- |
+| `baumnummer`        | `id`             | use official stable ID     |
+| geometry latitude   | `lat`            | derive                     |
+| geometry longitude  | `lng`            | derive                     |
+| German species name | `artdtsch`       | map from Zurich source     |
+| botanical species   | `artbot`         | map from Zurich source     |
+| genus               | `gattung`        | derive if needed           |
+| German genus        | `gattungdeutsch` | source or derived          |
+| `strasse`           | `strname`        | direct                     |
+| `pflanzjahr`        | `pflanzjahr`     | normalize                  |
+| `quartier`          | `bezirk`         | direct conceptual mapping  |
+| `kategorie`         | `type`           | optional                   |
+| geometry            | `geom`           | `SRID=4326;POINT(lng lat)` |
+| `baumnummer`        | `standortnr`     | optional source reference  |
 
 ## Script
 
 Create in:
 
 ```text
-giess-dis-quartier-postgres-api/scripts/sync-zurich-trees.ts
+guess-dis-quartier-postgres-api/scripts/sync-zurich-trees.ts
 ```
 
 Responsibilities:
@@ -598,7 +598,7 @@ VITE_MAP_PUMPS_SOURCE_URL=<geojson URL>
 Create:
 
 ```text
-giess-dis-quartier-postgres-api/scripts/sync-zurich-fountains.ts
+guess-dis-quartier-postgres-api/scripts/sync-zurich-fountains.ts
 ```
 
 Pipeline:
@@ -695,13 +695,13 @@ These are now the only CPC validation gates.
 Apply the CPC migration in:
 
 ```text
-giess-dis-quartier-postgres-api
+guess-dis-quartier-postgres-api
 ```
 
 Then use:
 
 ```text
-giess-dis-quartier-weather
+guess-dis-quartier-weather
 ```
 
 to import a real CPC dataset into local Supabase/PostGIS.
@@ -948,7 +948,7 @@ The first major milestone is complete when a fresh local setup can reproduce the
 Target developer workflow should be documented as closely as practical to:
 
 ```bash
-cd /Users/Adrian/src/gdq/giess-dis-quartier-postgres-api
+cd /Users/Adrian/src/gdq/guess-dis-quartier-postgres-api
 
 nvm use
 npm ci
@@ -958,13 +958,13 @@ npx supabase start
 # Import Zurich trees
 # Import Zurich fountains
 
-cd /Users/Adrian/src/gdq/giess-dis-quartier-weather
+cd /Users/Adrian/src/gdq/guess-dis-quartier-weather
 
 # Activate Python environment
 # Import CPC
 # Run precipitation aggregation
 
-cd /Users/Adrian/src/gdq/giess-dis-quartier
+cd /Users/Adrian/src/gdq/guess-dis-quartier
 
 nvm use
 npm ci
@@ -984,7 +984,7 @@ Once the local MVP works:
 ```text
 Gieß den Kiez
 →
-Giess dis Quartier
+Güss dis Quartier
 ```
 
 Change only necessary presentation elements:
@@ -1009,7 +1009,7 @@ Clearly retain upstream attribution and licensing.
 Suggested wording:
 
 ```text
-Giess dis Quartier is a Swiss adaptation of
+Güss dis Quartier is a Swiss adaptation of
 Gieß den Kiez by Technologiestiftung Berlin.
 ```
 

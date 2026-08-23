@@ -72,7 +72,7 @@
 												text-decoration: none;
 												text-shadow: 0 1px 0 white;
 											"
-											href="https://giessdenkiez.de/"
+											href="{{ .SiteURL }}"
 											class="email-masthead_name"
 										>
 											<img
@@ -83,7 +83,7 @@
 													box-sizing: border-box;
 													max-height: 50px;
 												"
-												src="https://www.giessdenkiez.de/images/icon-trees.svg"
+												src="{{ .SiteURL }}/images/icon-trees.svg"
 												class="email-logo"
 												alt=""
 											/>
@@ -293,10 +293,10 @@
 																	box-sizing: border-box;
 																"
 															>
-																Gieß den Kiez ist eine Anwendung, die hilft,
+																Güss dis Quartier ist eine Anwendung, die hilft,
 																ehrenamtliches Engagement beim Gießen durstiger
-																Stadtbäume zu koordinieren. Gieß den Kiez ist
-																ein Projekt der
+																Stadtbäume zu koordinieren. Güss dis Quartier
+																ist ein Projekt der
 																<a
 																	style="color: unset"
 																	href="https://www.technologiestiftung-berlin.de/"
@@ -468,9 +468,10 @@
 																	box-sizing: border-box;
 																"
 															>
-																Gieß den Kiez is an application that helps to
-																coordinate volunteer engagement to water thirsty
-																urban trees. Gieß den Kiez is a project of the
+																Güss dis Quartier is an application that helps
+																to coordinate volunteer engagement to water
+																thirsty urban trees. Güss dis Quartier is a
+																project of the
 																<a
 																	style="color: unset"
 																	href="https://www.technologiestiftung-berlin.de/"
@@ -578,9 +579,7 @@
 														>
 															Du bekommst diese Nachricht, weil Du die E-Mail
 															Adresse für Deinen Account auf
-															<a
-																style="color: unset"
-																href="https://www.giessdenkiez.de"
+															<a style="color: unset" href="{{ .SiteURL }}"
 																>giessdenkiez.de</a
 															>
 															ändern wolltest.

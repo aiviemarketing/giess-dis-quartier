@@ -1,4 +1,4 @@
-# Giess dis Quartier local runner and data updates
+# Güss dis Quartier local runner and data updates
 
 This checkout runs the frontend against local Supabase and the published Zurich
 Mapbox tree tileset. It also contains the local rain importer; the companion
@@ -46,7 +46,7 @@ All update commands target **local** Supabase. Start it first from the
 companion API checkout:
 
 ```bash
-cd ../giess-dis-quartier-postgres-api
+cd ../guess-dis-quartier-postgres-api
 source /Users/Adrian/.nvm/nvm.sh
 nvm use
 npx supabase start
@@ -57,11 +57,11 @@ Use the canonical instructions owned by each importer:
 - Rain — [MeteoSwiss CombiPrecip (CPC) local integration](cpc/README.md):
   environment setup, dry run, latest-hour import, 14-day backfill, precision,
   inspection, and tests.
-- Trees — [Zurich trees](https://github.com/aiviemarketing/giess-dis-quartier-postgres-api/blob/master/gdq/README.md#zurich-trees):
+- Trees — [Zurich trees](https://github.com/aiviemarketing/guess-dis-quartier-postgres-api/blob/master/gdq/README.md#zurich-trees):
   dry run and safe local replacement.
-- Mapbox tree tiles — [local Mapbox tree artifact](https://github.com/aiviemarketing/giess-dis-quartier-postgres-api/blob/master/gdq/README.md#local-mapbox-tree-artifact):
+- Mapbox tree tiles — [local Mapbox tree artifact](https://github.com/aiviemarketing/guess-dis-quartier-postgres-api/blob/master/gdq/README.md#local-mapbox-tree-artifact):
   build and publish the replacement tileset.
-- Fountains — [Zurich fountains](https://github.com/aiviemarketing/giess-dis-quartier-postgres-api/blob/master/gdq/README.md#zurich-fountains):
+- Fountains — [Zurich fountains](https://github.com/aiviemarketing/guess-dis-quartier-postgres-api/blob/master/gdq/README.md#zurich-fountains):
   generate, review, and upload the local Storage object.
 
 Refresh the browser after a database or Storage update. A CPC import updates a

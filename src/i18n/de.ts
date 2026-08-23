@@ -97,7 +97,7 @@ export const de: Content = {
 				register: "Registrieren",
 				confirmEmailTitle: "Account bestätigen",
 				confirmEmail: (email: string) =>
-					`Überprüfe Dein E-Mail Postfach für ${email} nach einer E-Mail von "no-reply@giessdenkiez.de" mit einem Link um Deinen Account zu bestätigen.`,
+					`Überprüfe Dein E-Mail-Postfach für ${email} auf eine E-Mail zur Bestätigung Deines Accounts.`,
 				existingAccount: "Du hast schon einen Account?",
 				logIn: "Melde Dich an",
 				passwordShould: "Dein Passwort muss enthalten:",
@@ -139,15 +139,16 @@ export const de: Content = {
 				answer: `Die Folgen des Klimawandels, insbesondere die trockenen und heißen Sommer, belasten das Berliner Ökosystem. Unsere Stadtbäume vertrocknen und tragen langfristige Schäden davon: In den letzten Jahren mussten immer mehr Bäume gefällt werden und ihre Lebensdauer sinkt. Inzwischen wird die Bevölkerung regelmäßig zur Unterstützung aufgerufen, allerdings weitgehend unkoordiniert. Dies möchten wir ändern und mit diesem Projekt eine koordinierte Bürger*innenbeteiligung bei der Bewässerung städtischen Grüns ermöglichen.`,
 
 				aboutUsTitle: "Über uns",
-				aboutUsAnswer: `„Gieß den Kiez” ist ein Projekt des [CityLAB Berlin](https://www.citylab-berlin.org/). Das CityLAB ist ein öffentliches Innovationslabor für die Stadt der Zukunft im ehemaligen Flughafen Berlin-Tempelhof. Gemeinsam mit einem großen Netzwerk aus Verwaltung, Zivilgesellschaft, Wissenschaft und Start-ups arbeiten wir hier an Ideen für ein lebenswertes Berlin. Das CityLAB ist ein Projekt der Technologiestiftung Berlin und wird gefördert durch die Berliner Senatskanzlei.`,
-				press: `Presseanfragen gehen am besten an [Pia Gralki](mailto:pia.gralki@ts.berlin?subject=giessdenkiez.de%20Presseanfrage).`,
+				aboutUsAnswer: `„Güss dis Quartier” ist eine Zürcher Adaption der Open-Source-Plattform [Gieß den Kiez](https://github.com/technologiestiftung/giessdenkiez-de).`,
+				press:
+					"Presseanfragen können über die Kontaktdaten im Impressum gestellt werden.",
 				communityTitle: "Community",
 				communityAnswer:
-					"Du möchtest Dich über das Gießen von Bäumen informieren, Pumpen melden oder Dich mit anderen aktiven Nutzer:innen austauschen? Dann tritt unserem Slack-Chat bei!",
-				slackButton: "Zur Slack Community",
-				feedback: `Du hast **Feedback** zu *Gieß den Kiez*?
+					"Du möchtest ein Problem melden oder Feedback geben? Nutze den Issue-Tracker des Projekts.",
+				slackButton: "GitHub Issues öffnen",
+				feedback: `Du hast **Feedback** zu *Güss dis Quartier*?
 
-[Beantworte uns gerne ein paar Fragen](https://citylabberlin.typeform.com/to/kCdnCgvC#product_id=GdK)`,
+[Teile Dein Feedback auf GitHub](https://github.com/aiviemarketing/guess-dis-quartier/issues)`,
 			},
 			qa: [
 				{
@@ -192,17 +193,17 @@ Neugierig, welcher Baum vor Deiner Tür steht? Unsere interaktive Karte visualis
 
 Bäume bewässern und adoptieren:
 
-Du möchtest aktiv werden oder bist bereits aktiv am Gießen? Auf Gieß den Kiez kannst Du eintragen, ob und mit wie viel Wasser Du einen Baum gegossen hast. Bäume können auch adoptiert werden. Die adoptierten Bäume erscheinen im eigenen Nutzerprofil und können schneller wiedergefunden werden. So können andere Nachbarn in der Umgebung sehen, welche Bäume ihre Aufmerksamkeit benötigen. Um Bäume zu bewässern und zu adoptieren, lege dazu zunächst ein Profil mit einer gültigen Email-Adresse an und logge Dich im Anschluss ein. Nun kannst Du Deine Gieß-Aktionen entsprechend dokumentieren und sehen, ob und wie oft Bäume in Deinem Kiez bereits von anderen Nutzer:innen gegossen wurden.
+Du möchtest aktiv werden oder bist bereits aktiv am Gießen? Auf Güss dis Quartier kannst Du eintragen, ob und mit wie viel Wasser Du einen Baum gegossen hast. Bäume können auch adoptiert werden. Die adoptierten Bäume erscheinen im eigenen Nutzerprofil und können schneller wiedergefunden werden. So können andere Nachbarn in der Umgebung sehen, welche Bäume ihre Aufmerksamkeit benötigen. Um Bäume zu bewässern und zu adoptieren, lege dazu zunächst ein Profil mit einer gültigen Email-Adresse an und logge Dich im Anschluss ein. Nun kannst Du Deine Gieß-Aktionen entsprechend dokumentieren und sehen, ob und wie oft Bäume in Deinem Kiez bereits von anderen Nutzer:innen gegossen wurden.
 
 Vernetzen:
 
-Über unseren öffentlichen [Slack Channel](https://join.slack.com/t/giessdenkiez/shared_invite/zt-e3et281u-xON4UmBZpKavzDRkw5HmCQ) kannst Du Dich mit anderen Gießer:innen austauschen und defekte Pumpen in Deinem Kiez melden.`,
+Über unseren öffentlichen [GitHub Issues](https://github.com/aiviemarketing/guess-dis-quartier/issues) kannst Du Dich mit anderen Gießer:innen austauschen und defekte Pumpen in Deinem Kiez melden.`,
 				},
 				{
 					question:
 						"Was kann ich tun, wenn Bäume nicht richtig eingetragen sind?",
 					answer:
-						"Wir beziehen den Baum-Datensatz mit allen Attributen wie bspw. Adresse, Baumart und Pflanzjahr je Baum aus dem Geoportal der Stadt Berlin, dem FIS-Broker. Das im Geoportal bereitgestellte Baumkataster basiert wiederum auf den bezirklich aggregierten Daten der Straßen- und Grünflächenämter. Es kann daher immer wieder vorkommen, dass Daten von Bäumen veraltet sind oder Eigenschaften der tagesaktuellen Realität abweichen. Leider können wir selbst keine Änderungen im Baumkataster vornehmen. Etwaige Abweichungen können nur direkt bei der zuständigen bezirklichen Behörde gemeldet werden. Einmal im Jahr veröffentlichen die Grünflächenämter aber ein aktualisiertes Baumkataster, das wir nach Veröffentlichung mit Gieß den Kiez verknüpfen.",
+						"Wir beziehen den Baum-Datensatz mit allen Attributen wie bspw. Adresse, Baumart und Pflanzjahr je Baum aus dem Geoportal der Stadt Berlin, dem FIS-Broker. Das im Geoportal bereitgestellte Baumkataster basiert wiederum auf den bezirklich aggregierten Daten der Straßen- und Grünflächenämter. Es kann daher immer wieder vorkommen, dass Daten von Bäumen veraltet sind oder Eigenschaften der tagesaktuellen Realität abweichen. Leider können wir selbst keine Änderungen im Baumkataster vornehmen. Etwaige Abweichungen können nur direkt bei der zuständigen bezirklichen Behörde gemeldet werden. Einmal im Jahr veröffentlichen die Grünflächenämter aber ein aktualisiertes Baumkataster, das wir nach Veröffentlichung mit Güss dis Quartier verknüpfen.",
 				},
 				{
 					question: "Warum sollte ich aktiv werden und Bäume gießen?",
@@ -225,15 +226,15 @@ Auch zu empfehlen sind sogenannte Gießsäcke aus denen das Wasser nur sehr lang
 				{
 					question:
 						"An wen kann ich mich wenden, wenn Pumpen kaputt oder beschädigt sind?",
-					answer: `Für die Infrastruktur der Straßen, zu denen auch die öffentlichen Schwengelpumpen zählen, sind die jeweiligen Straßen- und Grünflächenämter der Bezirke verantwortlich. Sollten Pumpen kaputt oder beschädigt sein, kann dort Reparaturbedarf gemeldet werden. Die Standorte der Pumpen in der Karte laden wir wöchentlich aus der Datenbank von Open Street Map. Wenn Ihr helfen wollt, die Daten zu verbessern, indem ihr zum Beispiel eine defekte Pumpe meldet, könnt ihr das in unserem [Slack Channel #pumpen-melden](https://app.slack.com/client/T012K4SDYBY/C019SJQDPL7) tun. Die OSM-Community hat dann die Möglichkeit eure Informationen in die Datenbank einzutragen.`,
+					answer: `Für die Infrastruktur der Straßen, zu denen auch die öffentlichen Schwengelpumpen zählen, sind die jeweiligen Straßen- und Grünflächenämter der Bezirke verantwortlich. Sollten Pumpen kaputt oder beschädigt sein, kann dort Reparaturbedarf gemeldet werden. Die Standorte der Pumpen in der Karte laden wir wöchentlich aus der Datenbank von Open Street Map. Wenn Ihr helfen wollt, die Daten zu verbessern, indem ihr zum Beispiel eine defekte Pumpe meldet, könnt ihr das in unserem [GitHub Issues #pumpen-melden](https://app.slack.com/client/T012K4SDYBY/C019SJQDPL7) tun. Die OSM-Community hat dann die Möglichkeit eure Informationen in die Datenbank einzutragen.`,
 				},
 				{
 					question: "Wie wird mit technischen Problemen umgegangen?",
-					answer: `Bei der Beteiligungsplattform „Gieß den Kiez” handelt es sich um einen Prototypen und demnach um eine Beta-Version einer Web-App. Wir sind uns einigen technischen Hürden bewusst, sind aber auf eure Mithilfe angewiesen. Euer technisches Feedback und eure Fragen nehmen wir gerne in unserem [Slack Channel](https://join.slack.com/t/giessdenkiez/shared_invite/zt-e3et281u-xON4UmBZpKavzDRkw5HmCQ) oder per Mail entgegen. Wer sich in der „Tech-Welt” zu Hause fühlt, ist herzlich zur Mitarbeit in unserem [Open Source GitHub Repository](https://github.com/technologiestiftung/giessdenkiez-de) eingeladen und kann seine Issues oder Code Fixes direkt in das Repository kommentieren.`,
+					answer: `Bei der Beteiligungsplattform „Güss dis Quartier” handelt es sich um einen Prototypen und demnach um eine Beta-Version einer Web-App. Wir sind uns einigen technischen Hürden bewusst, sind aber auf eure Mithilfe angewiesen. Euer technisches Feedback und eure Fragen nehmen wir gerne in unserem [GitHub Issues](https://github.com/aiviemarketing/guess-dis-quartier/issues) oder per Mail entgegen. Wer sich in der „Tech-Welt” zu Hause fühlt, ist herzlich zur Mitarbeit in unserem [Open Source GitHub Repository](https://github.com/aiviemarketing/guess-dis-quartier) eingeladen und kann seine Issues oder Code Fixes direkt in das Repository kommentieren.`,
 				},
 				{
 					question: "Warum lädt die Website nicht oder nur sehr langsam?",
-					answer: `Wenn die Seite zum ersten Mal geöffnet wird, lädt der Browser über 900.000 Datenpunkte – das kann eine Weile dauern! Unabhängig davon, kann es zu leicht unterschiedlichen Darstellungen bei der Verwendung unterschiedlicher Browser kommen. Für die beste „Experience” empfehlen wir die Nutzung von Chrome oder Firefox Desktop. Die häufigsten Probleme lassen sich erfahrungsgemäß beseitigen, wenn der Browser nicht veraltet, respektive die neueste Version installiert ist und eine stabile Internetverbindung (LAN oder WLAN) besteht. Die Nutzung über das Smartphone (Mobilfunknetz) kann zu Performance-Problemen (Seite lädt langsam) führen. Sollten wiederholt Probleme auftreten, könnt ihr diese in unserem [Slack Channel](https://join.slack.com/t/giessdenkiez/shared_invite/zt-e3et281u-xON4UmBZpKavzDRkw5HmCQ), per Mail oder via GitHub Issue unter Angabe des benutzten Geräts, des Betriebssystems, des Browsers und Version des Browsers melden.`,
+					answer: `Wenn die Seite zum ersten Mal geöffnet wird, lädt der Browser über 900.000 Datenpunkte – das kann eine Weile dauern! Unabhängig davon, kann es zu leicht unterschiedlichen Darstellungen bei der Verwendung unterschiedlicher Browser kommen. Für die beste „Experience” empfehlen wir die Nutzung von Chrome oder Firefox Desktop. Die häufigsten Probleme lassen sich erfahrungsgemäß beseitigen, wenn der Browser nicht veraltet, respektive die neueste Version installiert ist und eine stabile Internetverbindung (LAN oder WLAN) besteht. Die Nutzung über das Smartphone (Mobilfunknetz) kann zu Performance-Problemen (Seite lädt langsam) führen. Sollten wiederholt Probleme auftreten, könnt ihr diese in unserem [GitHub Issues](https://github.com/aiviemarketing/guess-dis-quartier/issues), per Mail oder via GitHub Issue unter Angabe des benutzten Geräts, des Betriebssystems, des Browsers und Version des Browsers melden.`,
 				},
 				{
 					question:
@@ -243,26 +244,26 @@ Auch zu empfehlen sind sogenannte Gießsäcke aus denen das Wasser nur sehr lang
 				},
 				{
 					question: "Ist das Prinzip auf andere Städte übertragbar?",
-					answer: `Die „Gieß den Kiez” Plattform ist ein Open Source Software Projekt und läuft unter einer MIT Lizenz. Dementsprechend kann die Idee, aber auch der Quellcode für die Umsetzung in anderen Städten kostenlos genutzt und weiterentwickelt werden. Wenn Du Dich dafür interessierst, schau gerne in unserem [Open Source GitHub Repository](https://github.com/technologiestiftung/giessdenkiez-de) vorbei oder kontaktiere uns via Mail. Wir unterstützen Deine Stadt auch gerne bei der technischen Umsetzung mit [DeineStadtgießt](https://deinestadt.giessdenkiez.de/).`,
+					answer: `Die „Güss dis Quartier” Plattform ist ein Open Source Software Projekt und läuft unter einer MIT Lizenz. Dementsprechend kann die Idee, aber auch der Quellcode für die Umsetzung in anderen Städten kostenlos genutzt und weiterentwickelt werden. Wenn Du Dich dafür interessierst, schau gerne in unserem [Open Source GitHub Repository](https://github.com/aiviemarketing/guess-dis-quartier) vorbei oder kontaktiere uns via Mail. Wir unterstützen Deine Stadt auch gerne bei der technischen Umsetzung mit [DeineStadtgießt](https://deinestadt.giessdenkiez.de/).`,
 				},
 				{
 					question: "Ich habe immer noch eine Frage!",
-					answer: `Das FAQ konnte Dir nicht weiterhelfen oder Du hast eine komplexere Anfrage? Dann schreib uns eine [E-Mail](mailto:giessdenkiez@citylab-berlin.org)`,
+					answer: `Das FAQ konnte Dir nicht weiterhelfen oder Du hast eine komplexere Anfrage? Dann [eröffne ein GitHub Issue](https://github.com/aiviemarketing/guess-dis-quartier/issues).`,
 				},
 				{
 					question: "Warum werden nicht alle Bäume Berlins angezeigt?",
 					answer:
-						"Gieß den Kiez baut auf dem Baumkataster auf. Das Baumkataster ist ein Verzeichnis der Stadt, in dem (Stadt-/Straßen- oder Park-)Bäume verwaltet werden und das durch die Straßen- und Grünflächenämter bereitgestellt wird. Das Straßen- und Grünflächenamt ist aber nicht für alle Bäume Berlins zuständig. Die Bäume im Plänterwald beispielsweise unterliegen dem Forstamt. Diese Bäume tauchen daher bei Gieß den Kiez nicht auf.",
+						"Güss dis Quartier baut auf dem Baumkataster auf. Das Baumkataster ist ein Verzeichnis der Stadt, in dem (Stadt-/Straßen- oder Park-)Bäume verwaltet werden und das durch die Straßen- und Grünflächenämter bereitgestellt wird. Das Straßen- und Grünflächenamt ist aber nicht für alle Bäume Berlins zuständig. Die Bäume im Plänterwald beispielsweise unterliegen dem Forstamt. Diese Bäume tauchen daher bei Güss dis Quartier nicht auf.",
 				},
 			],
 		},
 		share: {
 			title:
-				"Teile Gieß den Kiez mit Deinem Umfeld und hilf uns die Gieß-Community zu vergrößern:",
+				"Teile Güss dis Quartier mit Deinem Umfeld und hilf uns die Gieß-Community zu vergrößern:",
 			content:
-				"Auf Gieß den Kiez kannst Du Dich über den Berliner Baumbestand erkundigen, durstige Bäume finden, und eintragen, wann Du diese gegossen hast!",
+				"Auf Güss dis Quartier kannst Du Dich über den Berliner Baumbestand erkundigen, durstige Bäume finden, und eintragen, wann Du diese gegossen hast!",
 			openSource:
-				"Gieß den Kiez ist ein [Open Source Projekt](https://github.com/technologiestiftung/giessdenkiez-de)!",
+				"Güss dis Quartier ist ein [Open Source Projekt](https://github.com/aiviemarketing/guess-dis-quartier)!",
 		},
 		credits: {
 			projectBy: "Ein Projekt der",
@@ -544,7 +545,7 @@ Der Bezirk ${district} hat uns zusätzliche Informationen zur individuellen Gie�
 		networkTitle: "Vernetzen",
 		networkContent:
 			"Tritt unserem Slack-Chat bei, um Dich mit der Gieß-Community zu vernetzen, Fragen auszutauschen und die Bewässerung in Deinem Kiez abzustimmen.",
-		questionHeadline: "Gieß den Kiez auch in Deiner Stadt?",
+		questionHeadline: "Güss dis Quartier auch in Deiner Stadt?",
 		questionSubheadline:
 			"Städte wie Leipzig, Magdeburg und Co. haben sich bereits erfolgreich der Gieß-Welle angeschlossen! Ist Deine Stadt die nächste?",
 		discoverMoreTitle: "Erfahre mehr!",
@@ -556,7 +557,7 @@ Der Bezirk ${district} hat uns zusätzliche Informationen zur individuellen Gie�
 	},
 	stats: {
 		title: "Statistiken Berlin",
-		subtitle: "Gieß den Kiez in Zahlen",
+		subtitle: "Güss dis Quartier in Zahlen",
 		streetTrees: "Stadtbäume",
 		publicPumps: "Öffentliche Pumpen",
 		activeUsers: "Aktive Gießer:innen",
@@ -567,7 +568,7 @@ Der Bezirk ${district} hat uns zusätzliche Informationen zur individuellen Gie�
 			unit: "mal",
 			legend: "Anzahl der Gießungen",
 			hint: (currentYear) => `wurde im Jahr ${currentYear} gegossen.`,
-			backContent: `Die Gießaktivität variiert in den zwölf Berliner Bezirken je nach ehrenamtlichem Engagement. In einigen Bezirken haben sich engagierte Anwohner:innen bereits zu Gießgruppen organisiert ([Slack Community](https://giessdenkiez.slack.com/ssb/redirect)).
+			backContent: `Die Gießaktivität variiert in den zwölf Berliner Bezirken je nach ehrenamtlichem Engagement. In einigen Bezirken haben sich engagierte Anwohner:innen bereits zu Gießgruppen organisiert ([GitHub Issues](https://github.com/aiviemarketing/guess-dis-quartier/issues)).
 
 Zudem ist der Bedarf der bezirklichen [Straßen- und Grünflächenamt (SGA)](https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/aemter/strassen-und-gruenflaechenamt/) unterschiedlich. Um bestmöglich zu helfen, sollte man das zuständige SGA zuvor kontaktieren - und schon kann es losgehen.`,
 		},
@@ -608,7 +609,7 @@ Aber Achtung! Jungbäume können auch überwässert werden. Mehr Informationen z
 
 Diese Übersicht zeigt die zwanzig häufigsten Arten, jeweils zusammengefasst nach der übergreifenden Gattung.
 
-Die [Gieß den Kiez Karte](https://www.giessdenkiez.de/map) zeigt die volle Pracht, und somit fast 900.000 Stadtbäume, mit Infos zu Art, Alter und Wasserbedarf. Nutze die Filter und Suche, um mehr über die Bäume in Deiner Nachbarschaft zu erfahren.
+Die [Güss dis Quartier Karte](https://guess-dis-quartier.web.app/map) zeigt die volle Pracht, und somit fast 900.000 Stadtbäume, mit Infos zu Art, Alter und Wasserbedarf. Nutze die Filter und Suche, um mehr über die Bäume in Deiner Nachbarschaft zu erfahren.
 
 Datenquelle: [Berliner Baumkataster (Geoportal Berlin)](https://daten.berlin.de/datensaetze/baumbestand-berlin-wms )`,
 		},
@@ -617,12 +618,12 @@ Datenquelle: [Berliner Baumkataster (Geoportal Berlin)](https://daten.berlin.de/
 			unit: "Bäume",
 			hint: () => `sind adoptiert.`,
 			legend: "der adoptierten Bäume sind besonders durstig.",
-			backContent: `Einen Baum auf Gieß den Kiez zu adoptieren zeigt, dass sich regelmäßig um diesen gesorgt wird und erleichtert somit die nachbarschaftliche Koordination. Über tausende Bäume können sich also bereits glücklich schätzen.
+			backContent: `Einen Baum auf Güss dis Quartier zu adoptieren zeigt, dass sich regelmäßig um diesen gesorgt wird und erleichtert somit die nachbarschaftliche Koordination. Über tausende Bäume können sich also bereits glücklich schätzen.
 
 Durstig sind vor allem Jungbäume (unter 10 Jahren). Diese werden in der Regel mind. bis zum fünften Jahr vom Grünflächenamt gegossen. “Besonders durstig” sind somit die **5 - 10 Jahre** alten Bäume.`,
 		},
-		gdKSalesPitch: `*Gieß den Kiez* für **Deine Stadt**?
+		gdKSalesPitch: `Erfahre mehr über *Güss dis Quartier*.
 
-[Erfahre mehr!](https://deinestadt.giessdenkiez.de/)`,
+[Zum Projekt auf GitHub](https://github.com/aiviemarketing/guess-dis-quartier)`,
 	},
 };

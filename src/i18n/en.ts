@@ -98,7 +98,7 @@ export const en: Content = {
 				register: "Register",
 				confirmEmailTitle: "Confirm account",
 				confirmEmail: (email: string) =>
-					`Check your inbox for "${email}", you should have received a mail from "no-reply@giessdenkiez.de" containing a link to activate your account.`,
+					`Check your inbox for "${email}" for an account-activation email.`,
 				existingAccount: "Do you already have an account?",
 				logIn: "Login",
 				passwordShould: "Your password needs to contain:",
@@ -137,16 +137,16 @@ export const en: Content = {
 				answer: `The consequences of climate change, especially the dry and hot summers, are putting a strain on Berlin's ecosystem. Our urban trees are drying out and suffering long-term damage: In recent years, more and more trees had to be felled and their lifespan is decreasing. The public is now regularly called upon for support, but in a so far uncoordinated manner. Through this project we want to improve this and enable coordinated citizen participation in the watering of urban green spaces.`,
 
 				aboutUsTitle: "About Us",
-				aboutUsAnswer: `“Gieß den Kiez” is a project of the [CityLAB Berlin](https://www.citylab-berlin.org/).
-				The CityLAB is a public innovation laboratory in the former Berlin-Tempelhof airport. Together with a large network of administration, civil society, science and start-ups, we are working on new ideas to make Berlin even more liveable. The CityLAB is a project of the Technologiestiftung Berlin and is funded by the Berlin Senate Chancellery.`,
-				press: `For press inquiries please contact [Pia Gralki](mailto:pia.gralki@ts.berlin?subject=giessdenkiez.de%20Presseanfrage).`,
+				aboutUsAnswer: `“Güss dis Quartier” is a Zürich adaptation of the open-source [Gieß den Kiez](https://github.com/technologiestiftung/giessdenkiez-de) platform.`,
+				press:
+					"For press inquiries, use the contact route stated in the legal notice.",
 				communityTitle: "Community",
 				communityAnswer:
-					"Would you like to find out more about watering trees, report pumps or exchange ideas with other active users? Then join our Slack chat!",
-				slackButton: "Go to Slack Community",
-				feedback: `Do you have **feedback** on *Gieß den Kiez*?
+					"Would you like to report an issue or share feedback? Use the project issue tracker.",
+				slackButton: "Open GitHub Issues",
+				feedback: `Do you have **feedback** on *Güss dis Quartier*?
 
-[Feel free to answer a few questions](https://citylabberlin.typeform.com/to/kCdnCgvC#product_id=GdK)`,
+[Share your feedback on GitHub](https://github.com/aiviemarketing/guess-dis-quartier/issues)`,
 			},
 			qa: [
 				{
@@ -190,15 +190,15 @@ Curious which tree is in front of your door? Our interactive map visualizes over
 
 Watering and adopting trees:
 
-Do you want to get active or are you already actively watering? On Gieß den Kiez, you can enter when and with how much water you watered a tree. Trees can also be adopted. The adopted trees appear in your own user profile and can be found more quickly. This allows other neighbors in the area to see which trees need their attention. To water and adopt trees, first create a profile with a valid email address and then log in.
+Do you want to get active or are you already actively watering? On Güss dis Quartier, you can enter when and with how much water you watered a tree. Trees can also be adopted. The adopted trees appear in your own user profile and can be found more quickly. This allows other neighbors in the area to see which trees need their attention. To water and adopt trees, first create a profile with a valid email address and then log in.
 
 Connect:
 
-You can use our public [Slack channel](https://join.slack.com/t/giessdenkiez/shared_invite/zt-e3et281u-xON4UmBZpKavzDRkw5HmCQ) to exchange ideas with others, report defective pumps in your neighborhood or connect to jointly water your neighborhood.`,
+You can use our public [Slack channel](https://github.com/aiviemarketing/guess-dis-quartier/issues) to exchange ideas with others, report defective pumps in your neighborhood or connect to jointly water your neighborhood.`,
 				},
 				{
 					question: "What can I do if trees are not registered correctly?",
-					answer: `We obtain the tree data set with all attributes such as address, tree species and planting year for each tree from the geoportal of the city of Berlin, the FIS broker. The tree register provided in the geoportal is based on the district-aggregated data from the road and green space authorities. It can therefore happen that data from trees is out of date or that properties differ from current reality. Unfortunately, we cannot make any changes to the tree register ourselves. Any deviations can only be reported directly to the responsible district authority. Once a year, the green space authorities publish an updated tree register, which we link to Gieß den Kiez after publication.`,
+					answer: `We obtain the tree data set with all attributes such as address, tree species and planting year for each tree from the geoportal of the city of Berlin, the FIS broker. The tree register provided in the geoportal is based on the district-aggregated data from the road and green space authorities. It can therefore happen that data from trees is out of date or that properties differ from current reality. Unfortunately, we cannot make any changes to the tree register ourselves. Any deviations can only be reported directly to the responsible district authority. Once a year, the green space authorities publish an updated tree register, which we link to Güss dis Quartier after publication.`,
 				},
 				{
 					question: "Why should I take action and water trees?",
@@ -220,17 +220,17 @@ Before watering, you should first look at the tree and consider whether it reall
 				},
 				{
 					question: "Who can I contact if pumps are broken or damaged?",
-					answer: `The respective district roads and green spaces authorities are responsible for the infrastructure of the roads, which also includes the public hand pumps. If pumps are broken or damaged, the need for repairs can be reported there. We load the locations of the pumps on the map weekly from the Open Street Map database. If you want to help improve the data, for example by reporting a defective pump, you can do so in our [Slack Channel #pump-report](https://app.slack.com/client/T012K4SDYBY/C019SJQDPL7). The OSM community then has the opportunity to enter your information into the database.`,
+					answer: `The respective district roads and green spaces authorities are responsible for the infrastructure of the roads, which also includes the public hand pumps. If pumps are broken or damaged, the need for repairs can be reported there. We load the locations of the pumps on the map weekly from the Open Street Map database. If you want to help improve the data, for example by reporting a defective pump, you can do so in our [GitHub Issues #pump-report](https://app.slack.com/client/T012K4SDYBY/C019SJQDPL7). The OSM community then has the opportunity to enter your information into the database.`,
 				},
 				{
 					question: "How are technical problems handled?",
-					answer: `The participation platform “Gieß den Kiez” is a prototype and therefore a beta version of a web app. We are aware of some technical hurdles, but depend on your help. We are happy to receive your technical feedback and questions in our [Slack Channel](https://join.slack.com/t/giessdenkiez/shared_invite/zt-e3et281u-xON4UmBZpKavzDRkw5HmCQ) or by email. Anyone who feels at home in the “tech world” is welcome to participate in our [Open Source GitHub Repository](https://github.com/technologiestiftung/giessdenkiez-de) invited and can comment on his issues or code fixes directly in the repository.`,
+					answer: `The participation platform “Güss dis Quartier” is a prototype and therefore a beta version of a web app. We are aware of some technical hurdles, but depend on your help. We are happy to receive your technical feedback and questions in our [GitHub Issues](https://github.com/aiviemarketing/guess-dis-quartier/issues) or by email. Anyone who feels at home in the “tech world” is welcome to participate in our [Open Source GitHub Repository](https://github.com/aiviemarketing/guess-dis-quartier) invited and can comment on his issues or code fixes directly in the repository.`,
 				},
 				{
 					question: "Why is the website not loading or loading very slowly?",
 					answer: `When the page is first opened, the browser loads over 900,000 data points - this can take a while! Regardless, there may be slightly different displays when using different browsers. For the best experience, we recommend using Chrome or Firefox Desktop. Experience has shown that the most common problems can be solved if the browser is not outdated or the latest version is installed and there is a stable internet connection (LAN or WLAN).
 
-Use via smartphone (mobile network) can lead to performance problems (page loads slowly). If problems occur repeatedly, you can report them in our [Slack Channel](https://join.slack.com/t/giessdenkiez/shared_invite/zt-e3et281u-xON4UmBZpKavzDRkw5HmCQ), Report by email or via GitHub Issue, stating the device used, the operating system, the browser and the browser version.`,
+Use via smartphone (mobile network) can lead to performance problems (page loads slowly). If problems occur repeatedly, you can report them in our [GitHub Issues](https://github.com/aiviemarketing/guess-dis-quartier/issues), Report by email or via GitHub Issue, stating the device used, the operating system, the browser and the browser version.`,
 				},
 				{
 					question: "What should I do if I watered a tree incorrectly?",
@@ -238,25 +238,25 @@ Use via smartphone (mobile network) can lead to performance problems (page loads
 				},
 				{
 					question: "Can the principle be transferred to other cities?",
-					answer: `The “Gieß den Kiez” platform is an open source software project and runs under an MIT license. Accordingly, the idea and also the source code can be used and further developed free of charge for implementation in other cities. If you are interested, please take a look at our [GitHub Repository](https://github.com/technologiestiftung/giessdenkiez-de) or contact us via email. We are also happy to support your city with the technical implementation via [DeineStadtgießt](https://deinestadt.giessdenkiez.de/).`,
+					answer: `The “Güss dis Quartier” platform is an open source software project and runs under an MIT license. Accordingly, the idea and also the source code can be used and further developed free of charge for implementation in other cities. If you are interested, please take a look at our [GitHub Repository](https://github.com/aiviemarketing/guess-dis-quartier) or contact us via email. We are also happy to support your city with the technical implementation via [DeineStadtgießt](https://deinestadt.giessdenkiez.de/).`,
 				},
 				{
 					question: "I still have a question!",
-					answer: `The FAQ couldn't help you or you have a more complex query? Then write us an [Email](mailto:giessdenkiez@citylab-berlin.org).`,
+					answer: `The FAQ couldn't help you or you have a more complex query? Please [open an issue on GitHub](https://github.com/aiviemarketing/guess-dis-quartier/issues).`,
 				},
 				{
 					question: "Why aren't all of Berlin's trees shown?",
-					answer: `Gieß den Kiez is based on the tree register. The tree register is a city directory in which (city/street or park) trees are managed and which is provided by the street and green spaces authorities. However, the green space authorities are not responsible for all of Berlin's trees. The trees in the Plänterwald, for example, are subject to the forestry office. These trees therefore do not appear in Gieß den Kiez.`,
+					answer: `Güss dis Quartier is based on the tree register. The tree register is a city directory in which (city/street or park) trees are managed and which is provided by the street and green spaces authorities. However, the green space authorities are not responsible for all of Berlin's trees. The trees in the Plänterwald, for example, are subject to the forestry office. These trees therefore do not appear in Güss dis Quartier.`,
 				},
 			],
 		},
 		share: {
 			title:
-				"Share Gieß den Kiez with those around you and help us expand the watering community:",
+				"Share Güss dis Quartier with those around you and help us expand the watering community:",
 			content:
-				"On Gieß den Kiez you can find out about Berlin's tree population, find thirsty trees and record when you watered them!",
+				"On Güss dis Quartier you can find out about Berlin's tree population, find thirsty trees and record when you watered them!",
 			openSource:
-				"Gieß den Kiez is an [Open Source Project](https://github.com/technologiestiftung/giessdenkiez-de)!",
+				"Güss dis Quartier is an [Open Source Project](https://github.com/aiviemarketing/guess-dis-quartier)!",
 		},
 		credits: {
 			projectBy: "A project of",
@@ -533,7 +533,7 @@ The district ${district} has provided us with additional information on the indi
 		networkTitle: "Connect",
 		networkContent:
 			"Join our Slack chat to connect with the watering community, exchange questions, and coordinate watering in your neighborhood.",
-		questionHeadline: "Gieß den Kiez also in your city?",
+		questionHeadline: "Güss dis Quartier also in your city?",
 		questionSubheadline:
 			"Cities like Leipzig, Magdeburg and Co. have already successfully joined the watering wave! Is your city the next one?",
 		discoverMoreTitle: "Learn more!",
@@ -546,7 +546,7 @@ The district ${district} has provided us with additional information on the indi
 	},
 	stats: {
 		title: "Berlin Statistics",
-		subtitle: "Gieß den Kiez in numbers",
+		subtitle: "Güss dis Quartier in numbers",
 		streetTrees: "City trees",
 		publicPumps: "Public pumps",
 		activeUsers: "Active casters",
@@ -556,7 +556,7 @@ The district ${district} has provided us with additional information on the indi
 			unit: "times",
 			hint: (currentYear) => `were poured in ${currentYear}.`,
 			legend: "Number of waterings",
-			backContent: `The watering activity varies in the twelve Berlin districts depending on the level of volunteer involvement. In some districts, engaged residents have already organized themselves into watering groups ([Join the community](https://giessdenkiez.slack.com/ssb/redirect)).
+			backContent: `The watering activity varies in the twelve Berlin districts depending on the level of volunteer involvement. In some districts, engaged residents have already organized themselves into watering groups ([Join the community](https://github.com/aiviemarketing/guess-dis-quartier/issues)).
 
 In addition, the needs of the [district’s street and green space offices (SGA)](https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/aemter/strassen-und-gruenflaechenamt/) vary. In order to provide the best possible help, you should contact the responsible SGA before the first watering - now you’re ready to join the big community!`,
 		},
@@ -595,7 +595,7 @@ But be careful! Young trees can also be overwatered. More information on [wateri
 
 This overview shows the twenty most common species, each summarized according to the overarching tree genus.
 
-The [Gieß den Kiez map](https://www.giessdenkiez.de/map) shows the full splendor, and thus nearly 900,000 city trees, with information on species, age and water requirements. Use the filters and search to find out more about the trees in your neighborhood.
+The [Güss dis Quartier map](https://guess-dis-quartier.web.app/map) shows the full splendor, and thus nearly 900,000 city trees, with information on species, age and water requirements. Use the filters and search to find out more about the trees in your neighborhood.
 
 Data source: [Berlin tree cadastre (Geoportal Berlin)](https://daten.berlin.de/datensaetze/baumbestand-berlin-wms )`,
 		},
@@ -604,12 +604,12 @@ Data source: [Berlin tree cadastre (Geoportal Berlin)](https://daten.berlin.de/d
 			unit: "trees",
 			hint: () => `are adopted.`,
 			legend: "of the adopted trees are particularly thirsty.",
-			backContent: `Adopting a tree on Gieß den Kiez shows that it is regularly cared for and thus facilitates neighborly coordination. Thousands of trees can already count themselves lucky.
+			backContent: `Adopting a tree on Güss dis Quartier shows that it is regularly cared for and thus facilitates neighborly coordination. Thousands of trees can already count themselves lucky.
 
 Young trees (under 10 years old) are particularly thirsty. These are usually watered by the Parks Department until at least their fifth year. The **5 - 10 years** old trees are therefore “particularly thirsty”.`,
 		},
-		gdKSalesPitch: `*Gieß den Kiez* also in **your city**?
+		gdKSalesPitch: `Learn more about *Güss dis Quartier*.
 
-[Find out more!](https://deinestadt.giessdenkiez.de/)`,
+[View the project on GitHub](https://github.com/aiviemarketing/guess-dis-quartier)`,
 	},
 };

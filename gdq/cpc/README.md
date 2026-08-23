@@ -24,7 +24,7 @@ gdq/cpc/.venv/bin/pip install -r gdq/cpc/requirements.txt
 export DATABASE_URL='postgresql://postgres:postgres@localhost:54322/postgres'
 ```
 
-For the production import, use the Giess dis Quartier 1Password references:
+For the production import, use the Güss dis Quartier 1Password references:
 
 - Supabase connection configuration: `tczeojcwase2ggjcuth3iid5ia`
 - Database password: `sh5yhymlow6kecum27cathiyza`
@@ -60,7 +60,7 @@ gdq/cpc/.venv/bin/python -m gdq.cpc --hours 336 --write --rounding half-up
 ```
 
 The importer is idempotent. Re-run the same command if an interrupted
-backfill needs to continue. 
+backfill needs to continue.
 
 The official STAC catalogue exposes the most recent 14 days; the frontend still has a 30-day window, so hours outside that
 range remain zero until archive retrieval is explicitly added.

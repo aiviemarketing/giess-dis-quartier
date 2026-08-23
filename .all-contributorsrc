@@ -114,7 +114,7 @@
 	"skipCi": true,
 	"repoType": "github",
 	"repoHost": "https://github.com",
-	"projectName": "giessdenkiez-de",
-	"projectOwner": "technologiestiftung",
+	"projectName": "guess-dis-quartier",
+	"projectOwner": "aiviemarketing",
 	"commitType": "docs"
 }
