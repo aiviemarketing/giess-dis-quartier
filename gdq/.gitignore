@@ -1,0 +1,5 @@
+# Local CPC runtime artifacts
+cpc/.venv/
+cpc/data/
+cpc/__pycache__/
+cpc/tests/__pycache__/

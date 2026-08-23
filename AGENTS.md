@@ -1,0 +1,1 @@
+see ./gdq/docs/AGENTS.md
