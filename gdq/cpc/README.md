@@ -24,6 +24,14 @@ gdq/cpc/.venv/bin/pip install -r gdq/cpc/requirements.txt
 export DATABASE_URL='postgresql://postgres:postgres@localhost:54322/postgres'
 ```
 
+For the production import, use the Giess dis Quartier 1Password references:
+
+- Supabase connection configuration: `tczeojcwase2ggjcuth3iid5ia`
+- Database password: `sh5yhymlow6kecum27cathiyza`
+
+Build `DATABASE_URL` only in the shell that runs the importer; do not add it
+to a frontend `VITE_*` variable or commit it to an `.env` file.
+
 The database must already have the local Supabase schema, the RADOLAN
 compatibility migrations, and Zürich trees.
 
