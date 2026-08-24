@@ -5,7 +5,7 @@
 	"type": "module",
 	"scripts": {
 		"dev": "vite",
-		"build": "tsc && vite build",
+		"build": "tsc && vite build --mode prod",
 		"lint": "ESLINT_USE_FLAT_CONFIG=true eslint \"src/**/*\"",
 		"prettier": "prettier --write .",
 		"prettier:ci": "prettier --check .",

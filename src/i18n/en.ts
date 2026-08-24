@@ -595,7 +595,7 @@ But be careful! Young trees can also be overwatered. More information on [wateri
 
 This overview shows the twenty most common species, each summarized according to the overarching tree genus.
 
-The [Güss dis Quartier map](https://guess-dis-quartier.web.app/map) shows the full splendor, and thus nearly 900,000 city trees, with information on species, age and water requirements. Use the filters and search to find out more about the trees in your neighborhood.
+The [Güss dis Quartier map](https://guess-dis-quartier.ch/map) shows the full splendor, and thus nearly 900,000 city trees, with information on species, age and water requirements. Use the filters and search to find out more about the trees in your neighborhood.
 
 Data source: [Berlin tree cadastre (Geoportal Berlin)](https://daten.berlin.de/datensaetze/baumbestand-berlin-wms )`,
 		},
