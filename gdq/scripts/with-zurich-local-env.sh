@@ -2,7 +2,10 @@
 
 set -euo pipefail
 
-frontend_token="$(op item get om4wryhou2hgjpd2ja2lbxbhvq --fields label=credential --reveal)"
+readonly DEFAULT_OP_ITEM_UUID="om4wryhou2hgjpd2ja2lbxbhvq"
+readonly OP_ITEM_UUID="${OP_ITEM_UUID:-$DEFAULT_OP_ITEM_UUID}"
+
+frontend_token="$(op item get "$OP_ITEM_UUID" --fields label=credential --reveal)"
 case "$frontend_token" in
 	pk.*) ;;
 	*) echo "Could not retrieve a Mapbox public token from 1Password." >&2; exit 1 ;;
