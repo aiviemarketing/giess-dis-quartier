@@ -6,6 +6,7 @@
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc && vite build --mode prod",
+		"deploy": "npm run build && firebase deploy --only hosting",
 		"lint": "ESLINT_USE_FLAT_CONFIG=true eslint \"src/**/*\"",
 		"prettier": "prettier --write .",
 		"prettier:ci": "prettier --check .",
