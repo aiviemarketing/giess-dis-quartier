@@ -134,7 +134,7 @@ export const en: Content = {
 		about: {
 			head: {
 				question: "About the project",
-				answer: `The consequences of climate change, especially the dry and hot summers, are putting a strain on Berlin's ecosystem. Our urban trees are drying out and suffering long-term damage: In recent years, more and more trees had to be felled and their lifespan is decreasing. The public is now regularly called upon for support, but in a so far uncoordinated manner. Through this project we want to improve this and enable coordinated citizen participation in the watering of urban green spaces.`,
+				answer: `The consequences of climate change, especially the dry and hot summers, are putting a strain on Zürich's ecosystem. Our urban trees are drying out and suffering long-term damage: In recent years, more and more trees had to be felled and their lifespan is decreasing. The public is now regularly called upon for support, but in a so far uncoordinated manner. Through this project we want to improve this and enable coordinated citizen participation in the watering of urban green spaces.`,
 
 				aboutUsTitle: "About Us",
 				aboutUsAnswer: `“Güss dis Quartier” is a Zürich adaptation of the open-source [Gieß den Kiez](https://github.com/technologiestiftung/giessdenkiez-de) platform.`,
@@ -165,13 +165,13 @@ export const en: Content = {
 				},
 				{
 					question: "Data sources",
-					answer: `The map shows the majority of Berlin's street trees (962,545; as of Mai 2026). It also shows how much precipitation has fallen on each tree in the last 30 days and whether users have watered them. Unfortunately, for various reasons, not all of Berlin's urban trees are listed yet. However, we are working on improving the data situation. The current data sources are the following:
+					answer: `The map shows the 81,127 currently imported street and park trees in Zürich. It also shows how much precipitation has fallen on each tree in the last 30 days and whether users have watered them. Unfortunately, for various reasons, not all of Zürich's urban trees are listed yet. However, we are working on improving the data situation. The current data sources are the following:
 
-[Geoportal Berlin / Street trees](https://fbinter.stadt-berlin.de/fb/berlin/service_intern.jsp?id=s_wfs_baumbestand@senstadt&type=WFS)
+[City of Zurich Open Data / Tree cadastre](https://data.stadt-zuerich.ch/dataset/geo_baumkataster)
 
-[Geoportal Berlin / Plant trees](https://fbinter.stadt-berlin.de/fb/berlin/service_intern.jsp?id=s_wfs_baumbestand_an@senstadt&type=WFS)
+[Direct GeoJSON download (WGS84)](https://www.stadt-zuerich.ch/geodaten/download/Baumkataster?format=10009)
 
-Precipitation from [German Weather Service](https://www.dwd.de/)
+Precipitation from [Swiss Weather Service](https://www.dwd.de/)
 
 Pumps from [Open Street Map](https://www.openstreetmap.de)`,
 				},
@@ -186,7 +186,7 @@ Pumps from [Open Street Map](https://www.openstreetmap.de)`,
 					question: "How can I participate?",
 					answer: `Explore:
 
-Curious which tree is in front of your door? Our interactive map visualizes over 900,000 street trees of Berlin. If you want to find out more about a tree, navigate and zoom to the desired location and click on the colored dot. You will now see a lot of information about the selected tree.
+Curious which tree is in front of your door? Our interactive map visualizes over 80,000 street trees of Zürich. If you want to find out more about a tree, navigate and zoom to the desired location and click on the colored dot. You will now see a lot of information about the selected tree.
 
 Watering and adopting trees:
 
@@ -194,7 +194,7 @@ Do you want to get active or are you already actively watering? On Güss dis Qua
 
 Connect:
 
-You can use our public [Slack channel](https://github.com/aiviemarketing/guess-dis-quartier/issues) to exchange ideas with others, report defective pumps in your neighborhood or connect to jointly water your neighborhood.`,
+You can contact us by [form](https://aivie.ch/en/contact) to exchange ideas with others, report defective pumps in your neighborhood or connect to jointly water your neighborhood.`,
 				},
 				{
 					question: "What can I do if trees are not registered correctly?",
@@ -202,9 +202,9 @@ You can use our public [Slack channel](https://github.com/aiviemarketing/guess-d
 				},
 				{
 					question: "Why should I take action and water trees?",
-					answer: `The long periods of drought and heat of the last two years have caused immense damage to Berlin's urban greenery. Between 2018 and 2019 alone, over 7,000 trees had to be felled, not solely due to drought damage.
+					answer: `The long periods of drought and heat of the last two years have caused immense damage to Zürich's urban greenery. Between 2018 and 2019 alone, over 7,000 trees had to be felled, not solely due to drought damage.
 
-The street and green space authorities are already watering thousands of trees, but cannot keep up with the watering during Berlin's hot summers. Since the green space authorities are organized by district, each district works slightly different, which makes holistic and needs-based coordination difficult. Through the platform, we would like to give citizens the opportunity to help trees specifically based on their current water supply and to obtain further information. The goal is to save as many trees as possible through neighborly involvement.`,
+The street and green space authorities are already watering thousands of trees, but cannot keep up with the watering during Zürich's hot summers. Since the green space authorities are organized by district, each district works slightly different, which makes holistic and needs-based coordination difficult. Through the platform, we would like to give citizens the opportunity to help trees specifically based on their current water supply and to obtain further information. The goal is to save as many trees as possible through neighborly involvement.`,
 				},
 				{
 					question: "How do I water correctly?",
@@ -245,7 +245,7 @@ Use via smartphone (mobile network) can lead to performance problems (page loads
 					answer: `The FAQ couldn't help you or you have a more complex query? Please [open an issue on GitHub](https://github.com/aiviemarketing/guess-dis-quartier/issues).`,
 				},
 				{
-					question: "Why aren't all of Berlin's trees shown?",
+					question: "Why aren't all of Zürich's trees shown?",
 					answer: `Güss dis Quartier is based on the tree register. The tree register is a city directory in which (city/street or park) trees are managed and which is provided by the street and green spaces authorities. However, the green space authorities are not responsible for all of Berlin's trees. The trees in the Plänterwald, for example, are subject to the forestry office. These trees therefore do not appear in Güss dis Quartier.`,
 				},
 			],
@@ -254,7 +254,7 @@ Use via smartphone (mobile network) can lead to performance problems (page loads
 			title:
 				"Share Güss dis Quartier with those around you and help us expand the watering community:",
 			content:
-				"On Güss dis Quartier you can find out about Berlin's tree population, find thirsty trees and record when you watered them!",
+				"On Güss dis Quartier you can find out about Zürich's tree population, find thirsty trees and record when you watered them!",
 			openSource:
 				"Güss dis Quartier is an [Open Source Project](https://github.com/aiviemarketing/guess-dis-quartier)!",
 		},
@@ -281,7 +281,7 @@ Use via smartphone (mobile network) can lead to performance problems (page loads
 		ageUnknown: "Unknown",
 		treeTypeUnknown: "Tree species unknown",
 		managedBy:
-			"This tree is already being taken care of by the Berlin administration and does not need to be watered.",
+			"This tree is already being taken care of by the Grünstadt Zürich and does not need to be watered.",
 		waterNeed: {
 			title: "Water requirements",
 			hintWinter:
@@ -381,79 +381,79 @@ The district ${district} has provided us with additional information on the indi
 				id: "LINDE",
 				title: "Linden (Tilia)",
 				description:
-					"The lime tree has been the typical street tree in Berlin for years. With a share of a good third, it characterizes the street tree population. A total of 10 different species can be distinguished. The winter lime tree (Tilia cordata), a medium-sized tree that also finds room in narrower streets, is the preferred tree. The large-crowned imperial lime (Tilia intermedia), on the other hand, is reserved for wide avenues.",
+					"Linden are among the more common genera in Zurich's tree cadastre. With a share of 5.2%, they shape the tree population. The cadastre records 27 different linden species. The winter lime tree (Tilia cordata), a medium-sized tree that also finds room in narrower streets, is the preferred tree. The large-crowned imperial lime (Tilia intermedia), on the other hand, is reserved for wide avenues.",
 			},
 			{
 				id: "AHORN",
 				title: "Maple (Acer)",
 				description:
-					"The maple genus comprises approx. 20% of the total stock. The Norway maple (Acer platanoides) is particularly suitable for the street location. The early flowering and the colorful autumn coloring make the maple a particularly popular tree species.",
+					"The maple genus comprises 14.8% of the total stock. The Norway maple (Acer platanoides) is particularly suitable for the street location. The early flowering and the colorful autumn coloring make the maple a particularly popular tree species.",
 			},
 			{
 				id: "EICHE",
 				title: "Oak (Quercus)",
 				description:
-					"Oaks make up around 9% of the total stock. In Berlin, it is mainly the common oak (Quercus robur) that is planted. As a light tree, the oak is not suitable for narrow streets. The most recent avenues in the parliamentary and government district were planted with the so-called Spree oak (Quercus palustris), which is characterized by its particularly beautiful autumn colouring, among other things.",
+					"Oaks make up 4.0% of the total stock. The common oak (Quercus robur) is the most frequently recorded oak species in Zurich's tree cadastre. As a light tree, the oak is not suitable for narrow streets. The pin oak (Quercus palustris) is also recorded in the cadastre and is known for its particularly beautiful autumn colouring.",
 			},
 			{
 				id: "PLATANE",
 				title: "Plane tree (Platanus)",
 				description:
-					"An ideal avenue tree for wide streets is the plane tree (Platanus acerifolia), which in addition to a height of 20 to 30 m can also reach a stately crown diameter of 15 to 20 m. Sycamore trees make up around 6% of the total population. The best-known and, at over 120 years old, oldest plane tree avenue in Berlin is Puschkinallee in Berlin-Treptow.",
+					"An ideal avenue tree for wide streets is the plane tree (Platanus acerifolia), which in addition to a height of 20 to 30 m can also reach a stately crown diameter of 15 to 20 m. Plane trees make up 4.0% of the total population.",
 			},
 			{
 				id: "KASTANIE",
 				title: "Chestnut (Aesculus)",
 				description:
-					"The chestnut (Aesculus) accounts for around 5% of the total population, putting it in fifth place among Berlin's street trees. Horse chestnuts have five- and multi-lobed leaves that resemble the fingers of a hand; sweet chestnuts have single leaves that are also clearly serrated.",
+					"The chestnut (Aesculus) accounts for 3.7% of the total population, ranking eleventh among the genera recorded in Zurich's tree cadastre. Horse chestnuts have five- and multi-lobed leaves that resemble the fingers of a hand; sweet chestnuts have single leaves that are also clearly serrated.",
 			},
 			{
 				id: "ROSSKASTANIE",
 				title: "Horse chestnut (Aesculus hippocastanum)",
 				description:
-					"The horse chestnut (Aesculus hippocastanum) accounts for around 5% of the total population, making it the fifth most popular street tree in Berlin. Horse chestnuts have five- and multi-lobed leaves that resemble the fingers of a hand; sweet chestnuts have single leaves that are also clearly serrated.",
+					"The horse chestnut (Aesculus hippocastanum) accounts for 2.3% of the total population, making it the tenth most common species in Zurich's tree cadastre. Horse chestnuts have five- and multi-lobed leaves that resemble the fingers of a hand; sweet chestnuts have single leaves that are also clearly serrated.",
 			},
 			{
 				id: "ESCHE",
 				title: "Ash (Fraxinus)",
 				description:
-					"The ash tree (Fraxinus) accounts for approx. 3% of the total population and thus occupies sixth place among Berlin's street trees. With a height of up to 40 m, it is one of the tallest deciduous trees in Europe.",
+					"The ash tree (Fraxinus) accounts for 4.2% of the total population and ranks eighth among the genera recorded in Zurich's tree cadastre. With a height of up to 40 m, it is one of the tallest deciduous trees in Europe.",
 			},
 			{
 				id: "BIRKE",
 				title: "Birch (Betula)",
 				description:
-					"The birch (Betula) accounts for around 3% of the total population. Although the birch is a pioneer tree that is very undemanding and grows on any soil, it is less suitable as a street tree as the tree grates often offer too little space for the shallow-rooted trees.",
+					"The birch (Betula) accounts for 4.4% of the total population. Although the birch is a pioneer tree that is very undemanding and grows on any soil, it is less suitable as a street tree as the tree grates often offer too little space for the shallow-rooted trees.",
 			},
 			{
 				id: "ROBINIE",
 				title: "Robinia (Robinia)",
 				description:
-					"The Robinia (Robinia) accounts for around 2% of the total population. It was cultivated as a park tree in Berlin's Lustgarten from 1672 and is now very common throughout Berlin. The Robinia has low demands on the soil and, thanks to the nodule bacteria on its roots, it can bind atmospheric nitrogen and thus fertilize the soil.",
+					"The Robinia (Robinia) accounts for 1.8% of the total population. It has low demands on the soil and, thanks to the nodule bacteria on its roots, it can bind atmospheric nitrogen and thus fertilize the soil.",
 			},
 			{
 				id: "HASEL",
 				title: "Hazel tree (Corylus)",
 				description:
-					"The hazel tree (Corylus) accounts for around 2% of the total population, making it the ninth most common street tree in Berlin. The hazelnut grows as a shrub or small tree up to 6 m high.",
+					"The hazel tree (Corylus) accounts for 0.5% of the total population, ranking thirty-second among the genera recorded in Zurich's tree cadastre. The hazelnut grows as a shrub or small tree up to 6 m high.",
 			},
 			{
 				id: "HAINBUCHE",
 				title: "Hornbeam (Carpinus)",
 				description:
-					"The proportion of hornbeams (Carpinus) is around 2% of the total population. The tree reaches a height of up to 25 meters. The crown is initially slightly conical and later expands widely.",
+					"Hornbeams (Carpinus) make up 5.5% of the total population. The tree reaches a height of up to 25 meters. The crown is initially slightly conical and later expands widely.",
 			},
 			{
 				id: "PAPPEL",
 				title: "Poplar (Populus)",
 				description:
-					"The poplar (Populus) accounts for around 2% of Berlin's total population. They have ovoid to triangular, sometimes heart-shaped leaves.",
+					"The poplar (Populus) accounts for 3.0% of Zurich's total population. They have ovoid to triangular, sometimes heart-shaped leaves.",
 			},
 			{
 				id: "ULME",
 				title: "Elm (Ulmus)",
 				description:
-					"Elms (Ulmus) make up around 2% of the total population. There are three of the world's 45 species of this deciduous deciduous tree: the mountain elm, the field elm and the elm tree. It grows up to 600 meters high and can live to be 250 years old.",
+					"Elms (Ulmus) make up 1.6% of the total population. There are three of the world's 45 species of this deciduous deciduous tree: the mountain elm, the field elm and the elm tree. It grows up to 600 meters high and can live to be 250 years old.",
 			},
 		],
 		treeTypeInfoTitle: "Tree profile",
@@ -514,11 +514,11 @@ The district ${district} has provided us with additional information on the indi
 	},
 	splash: {
 		headline:
-			"Berlin's city trees are suffering from drought and you can help them!",
+			"Zürich's city trees are suffering from drought and you can help them!",
 		subheadlineWinter: `Currently the trees are practically in hibernation and don’t need any additional water.
 **Starting in March, it will pick up again! We Can!**`,
 		subheadline:
-			"Find out about the water needs of the trees in your neighborhood, adopt the tree on your doorstep and become part of the active watering community in Berlin!",
+			"Find out about the water needs of the trees in your neighborhood, adopt the tree on your doorstep and become part of the active watering community in Zürich!",
 		actionTitle: "Let's go",
 		actionTitleWinter: "Explore!",
 		discoverTitle: "Discover",
@@ -526,7 +526,7 @@ The district ${district} has provided us with additional information on the indi
 			"The map visualizes over 900,000 urban trees (as of 2025) and displays information on species, age and water requirements. Use the filter and search functions to quickly get an overview.",
 		waterTitle: "Water",
 		waterContent:
-			"Grab a watering can and become part of the watering community! Over a thousand active people have already joined forces for Berlin's trees and are regularly submitting their waterings.",
+			"Grab a watering can and become part of the watering community! Over a thousand active people have already joined forces for Zürich's trees and are regularly submitting their waterings.",
 		adoptTitle: "Adopt",
 		adoptContent:
 			"By adopting a tree - or several - you let your neighborhood know that these trees will be cared for. This creates a coordinated commitment.",
@@ -541,11 +541,11 @@ The district ${district} has provided us with additional information on the indi
 	},
 	loading: {
 		mapLoading:
-			"We are currently loading 967,365 trees from the Berlin tree population.",
+			"We are currently loading 81,127 trees from the Zürich tree population.",
 		treeLoading: "Loading tree information...",
 	},
 	stats: {
-		title: "Berlin Statistics",
+		title: "Zürich Statistics",
 		subtitle: "Güss dis Quartier in numbers",
 		streetTrees: "City trees",
 		publicPumps: "Public pumps",
@@ -556,7 +556,7 @@ The district ${district} has provided us with additional information on the indi
 			unit: "times",
 			hint: (currentYear) => `were poured in ${currentYear}.`,
 			legend: "Number of waterings",
-			backContent: `The watering activity varies in the twelve Berlin districts depending on the level of volunteer involvement. In some districts, engaged residents have already organized themselves into watering groups ([Join the community](https://github.com/aiviemarketing/guess-dis-quartier/issues)).
+			backContent: `The watering activity varies in the Zürich districts depending on the level of volunteer involvement. In some districts, engaged residents have already organized themselves into watering groups ([Join the community](https://github.com/aiviemarketing/guess-dis-quartier/issues)).
 
 In addition, the needs of the [district’s street and green space offices (SGA)](https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/aemter/strassen-und-gruenflaechenamt/) vary. In order to provide the best possible help, you should contact the responsible SGA before the first watering - now you’re ready to join the big community!`,
 		},
@@ -569,7 +569,7 @@ In addition, the needs of the [district’s street and green space offices (SGA)
 			legend: "∑ Liters poured per month",
 			backContent: `Over impressive 2 million liters have already been poured by volunteers!
 
-“The more the better” does not always apply in the face of increasing water shortages though. And the Berlin watering community knows this, of course, and is therefore mainly active when the trees are actually thirsty: during the vegetative period (April-October) in particularly hot, dry years.
+“The more the better” does not always apply in the face of increasing water shortages though. And the Zürich watering community knows this, of course, and is therefore mainly active when the trees are actually thirsty: during the vegetative period (April-October) in particularly hot, dry years.
 
 Data source: [Weather data (DWD)](https://opendata.dwd.de/)`,
 		},
@@ -588,16 +588,16 @@ But be careful! Young trees can also be overwatered. More information on [wateri
 		treeSpeciesStat: {
 			title: "Tree species",
 			unit: "tree species",
-			hint: () => `exist in Berlin.`,
+			hint: () => `exist in Zürich.`,
 			other: "Other",
 			legend: "Share of Berlin’s tree population",
-			backContent: `Berlin is diverse - including the trees!
+			backContent: `Zürich is diverse - including the trees!
 
 This overview shows the twenty most common species, each summarized according to the overarching tree genus.
 
-The [Güss dis Quartier map](https://guess-dis-quartier.ch/map) shows the full splendor, and thus nearly 900,000 city trees, with information on species, age and water requirements. Use the filters and search to find out more about the trees in your neighborhood.
+The [Güss dis Quartier map](https://guess-dis-quartier.ch/map) shows 81,127 city trees in Zürich, with information on species, age and water requirements. Use the filters and search to find out more about the trees in your neighborhood.
 
-Data source: [Berlin tree cadastre (Geoportal Berlin)](https://daten.berlin.de/datensaetze/baumbestand-berlin-wms )`,
+Data source: [City of Zurich tree cadastre](https://data.stadt-zuerich.ch/dataset/geo_baumkataster)`,
 		},
 		adoptionStat: {
 			title: "Tree adoptions",

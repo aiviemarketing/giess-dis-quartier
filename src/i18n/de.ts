@@ -167,11 +167,11 @@ export const de: Content = {
 				},
 				{
 					question: "Datenquellen",
-					answer: `Die Karte zeigt einen Grossteil der Zürcher Strassen- und Anlagenbäume (962.545; Stand: Mai 2026). Zusätzlich wird abgebildet, wie viel Niederschlag in den letzten 30 Tagen bei jedem Baum gefallen ist und ob diese in der Zeit bereits gegossen wurden. Aus verschiedenen Gründen sind leider noch nicht alle Zürcher Stadtbäume aufgeführt. Wir arbeiten aber daran, die Datenlage zu verbessern und eine möglichst vollständige Darstellung des Zürcher Baumbestandes zu erreichen. Die aktuellen Datenquellen sind:
+					answer: `Die Karte zeigt die 81'127 aktuell importierten Zürcher Strassen- und Anlagenbäume. Zusätzlich wird abgebildet, wie viel Niederschlag in den letzten 30 Tagen bei jedem Baum gefallen ist und ob diese in der Zeit bereits gegossen wurden. Aus verschiedenen Gründen sind leider noch nicht alle Zürcher Stadtbäume aufgeführt. Wir arbeiten aber daran, die Datenlage zu verbessern und eine möglichst vollständige Darstellung des Zürcher Baumbestandes zu erreichen. Die aktuellen Datenquellen sind:
 
-[Geoportal Berlin / Strassenbäume](https://fbinter.stadt-berlin.de/fb/berlin/service_intern.jsp?id=s_wfs_baumbestand@senstadt&type=WFS)
+[Stadt Zürich Open Data / Baumkataster](https://data.stadt-zuerich.ch/dataset/geo_baumkataster)
 
-[Geoportal Berlin / Anlagenbäume](https://fbinter.stadt-berlin.de/fb/berlin/service_intern.jsp?id=s_wfs_baumbestand_an@senstadt&type=WFS)
+[Direkter GeoJSON-Download (WGS84)](https://www.stadt-zuerich.ch/geodaten/download/Baumkataster?format=10009)
 
 Regendaten von [Deutscher Wetterdienst](https://www.dwd.de/)
 
@@ -189,7 +189,7 @@ Pumpen aus [Open Street Map](https://www.openstreetmap.de)`,
 					answer: `
 Informieren:
 
-Neugierig, welcher Baum vor Deiner Tür steht? Unsere interaktive Karte visualisiert über 900.000 Strassen- und Anlagenbäume Berlins. Wenn Du mehr über einen Baum erfahren willst, navigiere und zoome Dich zum gewünschten Standort und klicke auf den farbigen Punkt. Nun werden Dir im Menüband links zahlreiche Informationen zum ausgewählten Baum angezeigt.
+Neugierig, welcher Baum vor Deiner Tür steht? Unsere interaktive Karte visualisiert über 80'000 Strassen- und Anlagenbäume Zürichs. Wenn Du mehr über einen Baum erfahren willst, navigiere und zoome Dich zum gewünschten Standort und klicke auf den farbigen Punkt. Nun werden Dir im Menüband links zahlreiche Informationen zum ausgewählten Baum angezeigt.
 
 Bäume bewässern und adoptieren:
 
@@ -213,7 +213,7 @@ Die Strassen- und Grünflächenämter giessen regelmässig mehrere tausend Bäum
 				{
 					question: "Wie giesse ich richtig?",
 					answer: `
-Je nach Alter, Standort und Baumart benötigen Bäume unterschiedlich viel Wasser. Insbesondere Jungbäume (0-10 Jahre) sind in Zeiten von Trockenheit, Strahlung und Hitze auf eine regelmässige Wässerung angewiesen. Die bezirklichen Grünflächenämter in Berlin versorgen Jungbäume in der Regel bis zu einem Alter von 5 Jahren, wodurch besondern Junbäume im Alter zwischen 5 und 10 Jahren unsere Aufmerksamkeit benötigen.
+Je nach Alter, Standort und Baumart benötigen Bäume unterschiedlich viel Wasser. Insbesondere Jungbäume (0-10 Jahre) sind in Zeiten von Trockenheit, Strahlung und Hitze auf eine regelmässige Wässerung angewiesen. Die Grünstadt Zürich versorgen Jungbäume in der Regel bis zu einem Alter von 5 Jahren, wodurch besondern Junbäume im Alter zwischen 5 und 10 Jahren unsere Aufmerksamkeit benötigen.
 
 Vor jeder Giessung solltet ihr euch den Baum zunächst anschauen und überlegen ob der Baum wirklich Wasser benötigt. Wichtige Indikatoren für bedarfsgerechtes giessen sind bspw. das Alter (jung/alt), der Stammunfang (dünn/dick), der Standort (sonnig/schattig) oder die Beschaffenheit frischer Triebe (kahl/grün) eines Baumes. Bevor ihr mit dem giessen loslegt, empfehlen wir den ausgetrockneten Boden vor dem Giessen aufzulockern, sodass das Wasser in den Boden eindringen kann und nicht oberirdisch abläuft oder sich falsch anstaut. Angelehnt an das Zürcher [Handbuch Gute Pflege](https://www.berlin.de/sen/uvk/natur-und-gruen/stadtgruen/pflegen-und-unterhalten/handbuch-gute-pflege), solltet ihr lieber selten, dafür mit grösseren Menge an Wasser zu giessen. Das Handbuch empfiehlt für frisch gepflanzte Bäume bis zu 200l pro Giessung. So sorgt ihr dafür, dass die Bodenfeuchte auch in der Tiefe erhöht wird.
 Auch zu empfehlen sind sogenannte Giesssäcke aus denen das Wasser nur sehr langsam austritt, kaum oberflächlich abläuft und somit kontinuierlich in den Boden sickert.
@@ -392,79 +392,79 @@ Der Bezirk ${district} hat uns zusätzliche Informationen zur individuellen Gies
 				id: "LINDE",
 				title: "Linde (Tilia)",
 				description:
-					"Die Linde gilt seit Jahren als der berlintypische Strassenbaum. Mit einem Anteil von gut einem Drittel prägt sie den Strassenbaumbestand. Insgesamt lassen sich 10 verschiedene Arten unterscheiden. Bevorzugt gepflanzt wird die Winter-Linde (Tilia cordata), die als mittelgrosser Baum auch in schmaleren Strassen noch Raum findet. Die grosskronige Kaiserlinde (Tilia intermedia) ist dagegen den weiträumigen Alleen vorbehalten.",
+					"Die Linde gehört im Zürcher Baumkataster zu den häufigeren Gattungen. Mit einem Anteil von 5,2 % prägt sie den Baumbestand. Im Baumkataster sind 27 verschiedene Lindenarten erfasst. Bevorzugt gepflanzt wird die Winter-Linde (Tilia cordata), die als mittelgrosser Baum auch in schmaleren Strassen noch Raum findet. Die grosskronige Kaiserlinde (Tilia intermedia) ist dagegen den weiträumigen Alleen vorbehalten.",
 			},
 			{
 				id: "AHORN",
 				title: "Ahorn (Acer)",
 				description:
-					"Die Gattung der Ahorne umfasst ca. 20% des Gesamtbestandes. Für den Standort „Strasse” ist vor allem der Spitzahorn (Acer platanoides) geeignet. Die frühe Blüte und die bunte Herbstfärbung machen den Ahorn zu einer besonders beliebten Baumgattung.",
+					"Die Gattung der Ahorne umfasst 14,8 % des Gesamtbestandes. Für den Standort „Strasse” ist vor allem der Spitzahorn (Acer platanoides) geeignet. Die frühe Blüte und die bunte Herbstfärbung machen den Ahorn zu einer besonders beliebten Baumgattung.",
 			},
 			{
 				id: "EICHE",
 				title: "Eiche (Quercus)",
 				description:
-					"Der Anteil der Eichen beträgt rund 9% des Gesamtbestandes. In Berlin wird vor allem die Stiel-Eiche (Quercus robur) angepflanzt. Als Lichtbaum ist die Eiche nicht für enge Strassen geeignet. Die jüngsten Alleen im Parlaments- und Regierungsviertel wurden mit der sog. Spree-Eiche (Quercus palustris) bepflanzt, die sich u.a. durch ihre besonders schöne Herbstfärbung auszeichnet.",
+					"Der Anteil der Eichen beträgt 4,0 % des Gesamtbestandes. Die Stiel-Eiche (Quercus robur) ist die am häufigsten erfasste Eichenart im Zürcher Baumkataster. Als Lichtbaum ist die Eiche nicht für enge Strassen geeignet. Auch die Sumpf-Eiche (Quercus palustris) ist im Baumkataster erfasst und zeichnet sich durch ihre besonders schöne Herbstfärbung aus.",
 			},
 			{
 				id: "PLATANE",
 				title: "Platane (Platanus)",
 				description:
-					"Ein idealer Alleebaum für breite Strassen ist die Platane (Platanus acerifolia), die neben einer Höhe von 20 bis 30 m auch einen stattlichen Kronendurchmesser von 15 bis 20 m erreichen kann. Am Gesamtbestand haben die Platanen einen Anteil von etwa 6%. Die bekannteste und mit über 120 Jahren älteste Platanenallee in Berlin ist die Puschkinallee in Berlin-Treptow.",
+					"Ein idealer Alleebaum für breite Strassen ist die Platane (Platanus acerifolia), die neben einer Höhe von 20 bis 30 m auch einen stattlichen Kronendurchmesser von 15 bis 20 m erreichen kann. Am Gesamtbestand haben die Platanen einen Anteil von 4,0 %.",
 			},
 			{
 				id: "KASTANIE",
 				title: "Kastanie (Aesculus)",
 				description:
-					"Die Kastanie (Aesculus) hat einen Anteil von ca. 5% am Gesamtbestand, und belegt damit den fünften Platz unter den Zürcher Strassenbäumen. Rosskastanien haben fünf- und mehrgliedrige Blätter, die an die Finger einer Hand erinnern; Esskastanien haben einzelne Blätter, die überdies deutlich gezackt sind.",
+					"Die Kastanie (Aesculus) hat einen Anteil von 3,7 % am Gesamtbestand und belegt damit den elften Platz unter den im Zürcher Baumkataster erfassten Gattungen. Rosskastanien haben fünf- und mehrgliedrige Blätter, die an die Finger einer Hand erinnern; Esskastanien haben einzelne Blätter, die überdies deutlich gezackt sind.",
 			},
 			{
 				id: "ROSSKASTANIE",
 				title: "Rosskastanie (Aesculus hippocastanum)",
 				description:
-					"Die Rosskastanie (Aesculus hippocastanum) hat einen Anteil von ca. 5% am Gesamtbestand, und belegt damit den fünften Platz unter den Zürcher Strassenbäumen. Rosskastanien haben fünf- und mehrgliedrige Blätter, die an die Finger einer Hand erinnern; Esskastanien haben einzelne Blätter, die überdies deutlich gezackt sind.",
+					"Die Rosskastanie (Aesculus hippocastanum) hat einen Anteil von 2,3 % am Gesamtbestand und ist damit die zehnthäufigste Art im Zürcher Baumkataster. Rosskastanien haben fünf- und mehrgliedrige Blätter, die an die Finger einer Hand erinnern; Esskastanien haben einzelne Blätter, die überdies deutlich gezackt sind.",
 			},
 			{
 				id: "ESCHE",
 				title: "Esche (Fraxinus)",
 				description:
-					"Die Esche (Fraxinus) hat einen Anteil von ca. 3% am Gesamtbestand, und belegt damit den sechsten Platz unter den Zürcher Strassenbäumen. Mit einer Wuchshöhe von bis zu 40 m zählt sie zu den höchsten Laubbäumen Europas.",
+					"Die Esche (Fraxinus) hat einen Anteil von 4,2 % am Gesamtbestand und belegt damit den achten Platz unter den im Zürcher Baumkataster erfassten Gattungen. Mit einer Wuchshöhe von bis zu 40 m zählt sie zu den höchsten Laubbäumen Europas.",
 			},
 			{
 				id: "BIRKE",
 				title: "Birke (Betula)",
 				description:
-					"Die Birke (Betula) hat einen Anteil von ca. 3% am Gesamtbestand. Obwohl die Birke als Pionierbaum sehr anspruchslos und wachsend auf jedem Boden ist, eignet sie sich als Strassenbaum weniger, da die Baumscheiben oft zu wenig Raum für die Flachwurzler bieten.",
+					"Die Birke (Betula) hat einen Anteil von 4,4 % am Gesamtbestand. Obwohl die Birke als Pionierbaum sehr anspruchslos und wachsend auf jedem Boden ist, eignet sie sich als Strassenbaum weniger, da die Baumscheiben oft zu wenig Raum für die Flachwurzler bieten.",
 			},
 			{
 				id: "ROBINIE",
 				title: "Robinie (Robinia)",
 				description:
-					"Die Robinie (Robinia) hat einen Anteil von ca. 2% am Gesamtbestand. Sie wurde ab 1672 im Zürcher Lustgarten als Parkbaum kultiviert und ist heute in ganz Berlin sehr häufig. Die Robinie stellt nur geringe Anforderungen an den Boden, und sie kann dank der Knöllchenbakterien an ihren Wurzeln Luftstickstoff bindenden und düngt damit den Boden auf.",
+					"Die Robinie (Robinia) hat einen Anteil von 1,8 % am Gesamtbestand. Die Robinie stellt nur geringe Anforderungen an den Boden und kann dank der Knöllchenbakterien an ihren Wurzeln Luftstickstoff binden und damit den Boden aufdüngen.",
 			},
 			{
 				id: "HASEL",
 				title: "Hasel Baum (Corylus)",
 				description:
-					"Der Hasel Baum (Corylus) hat einen Anteil von ca. 2% am Gesamtbestand, und ist somit der neunt häufigste Strassenbaum in Berlin. Die Haselnuss wächst als Strauch oder kleiner Baum bis zu 6 m hoch.",
+					"Der Hasel Baum (Corylus) hat einen Anteil von 0,5 % am Gesamtbestand und belegt damit den 32. Platz unter den im Zürcher Baumkataster erfassten Gattungen. Die Haselnuss wächst als Strauch oder kleiner Baum bis zu 6 m hoch.",
 			},
 			{
 				id: "HAINBUCHE",
 				title: "Hainbuche (Carpinus)",
 				description:
-					"Der Anteil der Hainbuchen (Carpinus) beträgt rund 2% des Gesamtbestandes. Der Baum erreicht eine Höhe von bis zu 25 m. Die Krone ist erst leicht kegelförmig und später weit ausladend.",
+					"Der Anteil der Hainbuchen (Carpinus) beträgt 5,5 % des Gesamtbestandes. Der Baum erreicht eine Höhe von bis zu 25 m. Die Krone ist erst leicht kegelförmig und später weit ausladend.",
 			},
 			{
 				id: "PAPPEL",
 				title: "Pappel (Populus)",
 				description:
-					"Die Pappel (Populus) hat einen Anteil von ca. 2% am Zürcher Gesamtbestand. Sie haben eiförmige bis dreieckige, teils herzförmige Laubblätter.",
+					"Die Pappel (Populus) hat einen Anteil von 3,0 % am Zürcher Gesamtbestand. Sie haben eiförmige bis dreieckige, teils herzförmige Laubblätter.",
 			},
 			{
 				id: "ULME",
 				title: "Ulme (Ulmus)",
 				description:
-					"Der Anteil der Ulmen (Ulmus) beträgt rund 2% des Gesamtbestandes. Es gibt bei uns drei der weltweit 45 Arten dieses sommergrünen Laubbaumes: die Bergulme, die Feldulme und die Flatter-Ulme. Sie kommt mit einer Höhe von bis zu 600 Metern vor und kann 250 Jahre alt werden.",
+					"Der Anteil der Ulmen (Ulmus) beträgt 1,6 % des Gesamtbestandes. Es gibt bei uns drei der weltweit 45 Arten dieses sommergrünen Laubbaumes: die Bergulme, die Feldulme und die Flatter-Ulme. Sie kommt mit einer Höhe von bis zu 600 Metern vor und kann 250 Jahre alt werden.",
 			},
 		],
 		treeTypeInfoTitle: "Baumsteckbrief",
@@ -530,7 +530,7 @@ Der Bezirk ${district} hat uns zusätzliche Informationen zur individuellen Gies
 		subheadlineWinter: `Derzeit sind die Bäume quasi im Winterschlaf und benötigen kein zusätzliches Wasser.
 **Ab März startet die Giesssaison dann wieder, und zwar volle Kanne!**`,
 		subheadline:
-			"Erkundige Dich über den Wasserbedarf der Bäume in Deiner Nachbarschaft, adoptiere den Baum vor Deiner Haustür und werde Teil der aktiven Giess-Community in Berlin!",
+			"Erkundige Dich über den Wasserbedarf der Bäume in Deiner Nachbarschaft, adoptiere den Baum vor Deiner Haustür und werde Teil der aktiven Giess-Community in Zürich!",
 		actionTitle: "Los geht's",
 		actionTitleWinter: "Erkunden!",
 		discoverTitle: "Entdecken",
@@ -552,11 +552,11 @@ Der Bezirk ${district} hat uns zusätzliche Informationen zur individuellen Gies
 		letsGo: "Los geht's",
 	},
 	loading: {
-		mapLoading: "Wir laden gerade 967.365 Bäume aus dem Zürcher Baumbestand.",
+		mapLoading: "Wir laden gerade 81'127 Bäume aus dem Zürcher Baumbestand.",
 		treeLoading: "Lade Bauminformationen...",
 	},
 	stats: {
-		title: "Statistiken Berlin",
+		title: "Statistiken Zürich",
 		subtitle: "Güss dis Quartier in Zahlen",
 		streetTrees: "Stadtbäume",
 		publicPumps: "Öffentliche Pumpen",
@@ -602,16 +602,16 @@ Aber Achtung! Jungbäume können auch überwässert werden. Mehr Informationen z
 		treeSpeciesStat: {
 			title: "Baumarten",
 			unit: "Baumarten",
-			hint: () => `stehen in Berlin.`,
+			hint: () => `stehen in Zürich.`,
 			other: "Andere",
 			legend: "Anteile Zürcher Baumbestand",
-			backContent: `Berlin ist vielfältig - inklusive der Bäume!
+			backContent: `Zürich ist vielfältig - inklusive der Bäume!
 
 Diese Übersicht zeigt die zwanzig häufigsten Arten, jeweils zusammengefasst nach der übergreifenden Gattung.
 
-Die [Güss dis Quartier Karte](https://guess-dis-quartier.ch/map) zeigt die volle Pracht, und somit fast 900.000 Stadtbäume, mit Infos zu Art, Alter und Wasserbedarf. Nutze die Filter und Suche, um mehr über die Bäume in Deiner Nachbarschaft zu erfahren.
+Die [Güss dis Quartier Karte](https://guess-dis-quartier.ch/map) zeigt 81'127 Zürcher Stadtbäume mit Infos zu Art, Alter und Wasserbedarf. Nutze die Filter und Suche, um mehr über die Bäume in Deiner Nachbarschaft zu erfahren.
 
-Datenquelle: [Zürcher Baumkataster (Geoportal Berlin)](https://daten.berlin.de/datensaetze/baumbestand-berlin-wms )`,
+Datenquelle: [Zürcher Baumkataster](https://data.stadt-zuerich.ch/dataset/geo_baumkataster)`,
 		},
 		adoptionStat: {
 			title: "Baumadoptionen",
