@@ -152,6 +152,7 @@ interface Info {
 	};
 	credits: {
 		sponsoredAndOperatedBy: string;
+		upstreamAttribution: string;
 	};
 }
 

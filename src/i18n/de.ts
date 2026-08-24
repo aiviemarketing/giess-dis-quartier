@@ -267,6 +267,8 @@ Auch zu empfehlen sind sogenannte Giesssäcke aus denen das Wasser nur sehr lang
 		},
 		credits: {
 			sponsoredAndOperatedBy: "Gesponsert und betrieben von",
+			upstreamAttribution:
+				"Basierend auf Gieß den Kiez von Technologiestiftung Berlin und CityLAB Berlin.",
 		},
 	},
 	treeDetail: {

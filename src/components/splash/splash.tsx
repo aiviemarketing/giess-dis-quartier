@@ -96,7 +96,7 @@ export const Splash: React.FC = () => {
 							</div>
 						</div>
 						<div className="hidden w-full sm:w-3/5 lg:w-7/12 lg:flex flex-row justify-end mr-8 mb-4 mt-6 lg:my-0 lg:px-4">
-							<Credits />
+							<Credits showUpstreamAttribution={false} />
 						</div>
 					</div>
 					<div>
@@ -137,7 +137,7 @@ export const Splash: React.FC = () => {
 						<img src="/images/icon-water-large.svg" alt="" />
 					</div>
 					<div className="lg:hidden w-full sm:w-3/5 lg:w-7/12 flex flex-row justify-end mt-8 pr-1 lg:my-0 lg:px-4">
-						<Credits />
+						<Credits showUpstreamAttribution={false} />
 					</div>
 				</div>
 

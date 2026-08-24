@@ -260,6 +260,8 @@ Use via smartphone (mobile network) can lead to performance problems (page loads
 		},
 		credits: {
 			sponsoredAndOperatedBy: "Sponsored and operated by",
+			upstreamAttribution:
+				"Based on Gieß den Kiez by Technologiestiftung Berlin and CityLAB Berlin.",
 		},
 	},
 	treeDetail: {
