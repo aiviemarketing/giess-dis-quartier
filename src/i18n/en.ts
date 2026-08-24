@@ -524,7 +524,7 @@ The district ${district} has provided us with additional information on the indi
 		actionTitleWinter: "Explore!",
 		discoverTitle: "Discover",
 		discoverContent:
-			"The map visualizes over 900,000 urban trees (as of 2025) and displays information on species, age and water requirements. Use the filter and search functions to quickly get an overview.",
+			"The map visualizes over 80'000 urban trees (as of 2026) and displays information on species, age and water requirements. Use the filter and search functions to quickly get an overview.",
 		waterTitle: "Water",
 		waterContent:
 			"Grab a watering can and become part of the watering community! Over a thousand active people have already joined forces for Zürich's trees and are regularly submitting their waterings.",
@@ -533,7 +533,7 @@ The district ${district} has provided us with additional information on the indi
 			"By adopting a tree - or several - you let your neighborhood know that these trees will be cared for. This creates a coordinated commitment.",
 		networkTitle: "Connect",
 		networkContent:
-			"Join our Slack chat to connect with the watering community, exchange questions, and coordinate watering in your neighborhood.",
+			"Join our WhatsApp community to connect with the watering community, exchange questions, and coordinate watering in your neighborhood.",
 		questionHeadline: "Güss dis Quartier also in your city?",
 		questionSubheadline:
 			"Cities like Berlin (the platform this project is based on), Leipzig and others have already successfully joined the watering wave! Is your city the next one?",

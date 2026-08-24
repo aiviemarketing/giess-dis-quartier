@@ -536,7 +536,7 @@ Der Bezirk ${district} hat uns zusätzliche Informationen zur individuellen Gies
 		actionTitleWinter: "Erkunden!",
 		discoverTitle: "Entdecken",
 		discoverContent:
-			"Die Karte visualisiert über 900.000 Stadtbäume (Stand 2025) und zeigt Informationen zu Art, Alter und Wasserbedarf an. Nutze die Filter- und Suchfunktionen, um schnell einen Überblick zu erhalten.",
+			"Die Karte visualisiert über 80'000 Stadtbäume (Stand 2026) und zeigt Informationen zu Art, Alter und Wasserbedarf an. Nutze die Filter- und Suchfunktionen, um schnell einen Überblick zu erhalten.",
 		waterTitle: "Giessen",
 		waterContent:
 			"Schnapp Dir eine Giesskanne und werde Teil der Giess-Community! Bereits über tausend Aktive haben sich für die Bäume Berlins zusammengeschlossen und tragen ihre Giessungen regelmässig ein.",
@@ -545,7 +545,7 @@ Der Bezirk ${district} hat uns zusätzliche Informationen zur individuellen Gies
 			"Durch das Adoptieren eines Baumes - oder auch mehrerer - lässt Du Deine Nachbarschaft wissen, dass für diese Bäume gesorgt wird. So gelingt ein koordiniertes Engagement.",
 		networkTitle: "Vernetzen",
 		networkContent:
-			"Tritt unserem Slack-Chat bei, um Dich mit der Giess-Community zu vernetzen, Fragen auszutauschen und die Bewässerung in Deinem Kiez abzustimmen.",
+			"Tritt unserer WhatsApp Community bei, um Dich mit der Giess-Community zu vernetzen, Fragen auszutauschen und die Bewässerung in Deinem Quartier abzustimmen.",
 		questionHeadline: "Güss dis Quartier auch in Deiner Stadt?",
 		questionSubheadline:
 			"Städte wie Berlin (auf dessen Plattform wir basieren), Leipzig und Co. haben sich bereits erfolgreich der Giess-Welle angeschlossen! Ist Deine Stadt die nächste?",
