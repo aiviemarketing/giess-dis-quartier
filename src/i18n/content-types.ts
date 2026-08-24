@@ -151,8 +151,7 @@ interface Info {
 		openSource: string;
 	};
 	credits: {
-		projectBy: string;
-		fundedBy: string;
+		sponsoredAndOperatedBy: string;
 	};
 }
 

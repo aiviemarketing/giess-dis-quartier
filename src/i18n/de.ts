@@ -266,8 +266,7 @@ Auch zu empfehlen sind sogenannte Giesssäcke aus denen das Wasser nur sehr lang
 				"Güss dis Quartier ist ein [Open Source Projekt](https://github.com/aiviemarketing/guess-dis-quartier)!",
 		},
 		credits: {
-			projectBy: "Ein Projekt der",
-			fundedBy: "Gefördert durch",
+			sponsoredAndOperatedBy: "Gesponsert und betrieben von",
 		},
 	},
 	treeDetail: {
@@ -547,7 +546,7 @@ Der Bezirk ${district} hat uns zusätzliche Informationen zur individuellen Gies
 			"Tritt unserem Slack-Chat bei, um Dich mit der Giess-Community zu vernetzen, Fragen auszutauschen und die Bewässerung in Deinem Kiez abzustimmen.",
 		questionHeadline: "Güss dis Quartier auch in Deiner Stadt?",
 		questionSubheadline:
-			"Städte wie Leipzig, Magdeburg und Co. haben sich bereits erfolgreich der Giess-Welle angeschlossen! Ist Deine Stadt die nächste?",
+			"Städte wie Berlin (auf dessen Plattform wir basieren), Leipzig und Co. haben sich bereits erfolgreich der Giess-Welle angeschlossen! Ist Deine Stadt die nächste?",
 		discoverMoreTitle: "Erfahre mehr!",
 		letsGo: "Los geht's",
 	},

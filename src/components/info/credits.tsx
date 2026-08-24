@@ -1,55 +1,22 @@
 import React from "react";
 import { useI18nStore } from "../../i18n/i18n-store";
 
-const logoCitylab = "https://logos.citylab-berlin.org/logo-citylab-color.svg";
-const logoTSB = "https://logos.citylab-berlin.org/logo-tsb-outline.svg";
-const logoBerlin =
-	"https://logos.citylab-berlin.org/logo-senatskanzlei-buergermeister-horizontal.svg";
+const aivieLogo =
+	"https://cdn.aivie.ch/media/wp/2021/06/19131704/logo-aivie-fast-kein-rand-400w.png";
 
 export const Credits: React.FC = () => {
 	const i18n = useI18nStore().i18n();
+
 	return (
-		<div className="w-full flex flex-row gap-4 md:gap-10 text-xs">
-			<div className="w-[22%] flex flex-col gap-4 justify-end">
-				<div className="w-full"></div>
-				<a
-					target="_blank"
-					rel="noopener noreferrer"
-					href="https://citylab-berlin.org/de/start/"
-				>
-					<img src={logoCitylab} alt="Logo Citylab" />
-				</a>
-			</div>
-			<div className="w-[28%] flex flex-col gap-4">
-				<div>{i18n.info.credits.projectBy}</div>
-				<div>
-					<a
-						target="_blank"
-						rel="noopener noreferrer"
-						href="https://technologiestiftung-berlin.de/"
-					>
-						<img
-							className="-translate-y-0.5"
-							src={logoTSB}
-							alt="Logo Technologiestiftung Berlin"
-						/>
-					</a>
-				</div>
-			</div>
-			<div className="w-[50%] flex flex-col gap-4">
-				<div>{i18n.info.credits.fundedBy}</div>
-				<a
-					target="_blank"
-					rel="noopener noreferrer"
-					href="https://www.berlin.de/senatskanzlei/"
-				>
-					<img
-						className="-translate-y-0.5"
-						src={logoBerlin}
-						alt="Logo Berlin"
-					/>
-				</a>
-			</div>
+		<div className="w-full flex flex-col items-end gap-2 text-right text-xs">
+			<div>{i18n.info.credits.sponsoredAndOperatedBy}</div>
+			<a
+				target="_blank"
+				rel="noopener noreferrer"
+				href="https://aivie.ch/?utm_source=gdq&utm_medium=gdq-app&utm_campaign=human&utm_content=credits"
+			>
+				<img className="h-12 w-auto" src={aivieLogo} alt="Aivie" />
+			</a>
 		</div>
 	);
 };

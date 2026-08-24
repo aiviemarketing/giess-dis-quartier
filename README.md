@@ -80,8 +80,8 @@ https://github.com/technologiestiftung/giessdenkiez-de#contributors-
 
 ## MVP sponsor
 
-<a href="https://aivie.ch/">
+<a href="https://aivie.ch/?utm_source=gdq&utm_medium=gdq-app&utm_campaign=human&utm_content=readme-sponsor-logo">
   <img src="https://cdn.aivie.ch/media/wp/2021/06/19131704/logo-aivie-fast-kein-rand-400w.png" alt="Aivie" width="180" />
 </a>
 
-This Zürich MVP is sponsored by [Aivie](https://aivie.ch/?utm_source=github&utm_medium=gdq&utm_campaign=expert&utm_content=readme-gdq).
+This Zürich MVP is sponsored by [Aivie](https://aivie.ch/?utm_source=gdq&utm_medium=gdq-app&utm_campaign=human&utm_content=readme-sponsor).

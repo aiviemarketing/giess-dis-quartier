@@ -194,7 +194,7 @@ Do you want to get active or are you already actively watering? On Güss dis Qua
 
 Connect:
 
-You can contact us by [form](https://aivie.ch/en/contact) to exchange ideas with others, report defective pumps in your neighborhood or connect to jointly water your neighborhood.`,
+You can contact us by [form](https://aivie.ch/en/contact?utm_source=gdq&utm_medium=gdq-app&utm_campaign=human&utm_content=contact) to exchange ideas with others, report defective pumps in your neighborhood or connect to jointly water your neighborhood.`,
 				},
 				{
 					question: "What can I do if trees are not registered correctly?",
@@ -259,8 +259,7 @@ Use via smartphone (mobile network) can lead to performance problems (page loads
 				"Güss dis Quartier is an [Open Source Project](https://github.com/aiviemarketing/guess-dis-quartier)!",
 		},
 		credits: {
-			projectBy: "A project of",
-			fundedBy: "Funded by",
+			sponsoredAndOperatedBy: "Sponsored and operated by",
 		},
 	},
 	treeDetail: {
@@ -535,7 +534,7 @@ The district ${district} has provided us with additional information on the indi
 			"Join our Slack chat to connect with the watering community, exchange questions, and coordinate watering in your neighborhood.",
 		questionHeadline: "Güss dis Quartier also in your city?",
 		questionSubheadline:
-			"Cities like Leipzig, Magdeburg and Co. have already successfully joined the watering wave! Is your city the next one?",
+			"Cities like Berlin (the platform this project is based on), Leipzig and others have already successfully joined the watering wave! Is your city the next one?",
 		discoverMoreTitle: "Learn more!",
 		letsGo: "Let's go",
 	},
