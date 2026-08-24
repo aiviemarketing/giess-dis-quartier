@@ -63,10 +63,11 @@ millimetre.
 
 ## Implemented local integration
 
-The runnable implementation is the [`gdq.cpc` package](../../cpc/README.md):
+The runnable implementation is the weather repository's
+[`gdq.harvester` package](https://github.com/aiviemarketing/guess-dis-quartier-weather/tree/main/gdq/harvester):
 
 ```text
-gdq/cpc/
+guess-dis-quartier-weather/gdq/harvester/
 ├── download.py
 ├── inspect.py
 ├── lookup.py
@@ -81,7 +82,7 @@ gdq/cpc/
 
 ### Download and STAC selection
 
-`python -m gdq.cpc.download` queries the official daily STAC item, selects either the
+`python -m gdq.harvester.download` queries the official daily STAC item, selects either the
 newest CPC asset or the highest-quality asset for an exact UTC end time, and
 writes an auditable JSON manifest beside the HDF5 file. The filename parser
 verifies the format:
@@ -94,7 +95,7 @@ cpcYYJJJHHMMQ_00060.001.h5
 
 ### HDF5 inspection
 
-`python -m gdq.cpc.inspect` prints the HDF5 groups and datasets, shape, type, valid range,
+`python -m gdq.harvester.inspect` prints the HDF5 groups and datasets, shape, type, valid range,
 NoData count, product timestamps, gain, offset, quantity, projection, cell
 size, and extent. The first live file inspected for this spike had:
 
@@ -114,14 +115,14 @@ hard-code a CPC scale factor.
 
 ### WGS84 point lookup
 
-`python -m gdq.cpc.lookup` transforms a tree's WGS84 longitude/latitude using
+`python -m gdq.harvester.lookup` transforms a tree's WGS84 longitude/latitude using
 the file-declared projection, maps it to a raster row and column, and prints the
 chosen 1 km cell polygon in WGS84. Validate at least Zurich centre, Altstetten,
 Oerlikon and Witikon.
 
 ### Small Zurich database import
 
-`gdq.cpc.ingest` converts valid CPC cells in the configured Zürich bounding box
+`gdq.harvester.ingest` converts valid CPC cells in the configured Zürich bounding box
 to WGS84 PostGIS polygons and writes them to `radolan_geometry` and
 `radolan_data`. It is dry-run by default and only writes with `--write`.
 
@@ -130,7 +131,7 @@ The Postgres API checkout contains migration
 `radolan_data.geom_id` to `integer` and adds a unique `(geom_id, measured_at)`
 index, allowing the eight-day CPC reanalysis to replace a provisional value.
 
-`gdq.cpc.aggregate` bridges the timestamp difference between DWD and CPC while
+`gdq.harvester.aggregate` bridges the timestamp difference between DWD and CPC while
 retaining the existing `radolan_days` and `radolan_sum` frontend contract.
 
 ### Precision decision gate
@@ -147,28 +148,30 @@ a coordinated database/API/frontend precision migration.
 ## Run order
 
 ```bash
-python3 -m venv gdq/cpc/.venv
-gdq/cpc/.venv/bin/pip install -r gdq/cpc/requirements.txt
+cd /Users/Adrian/src/gdq/guess-dis-quartier-weather
+
+python3 -m venv gdq/harvester/.venv
+gdq/harvester/.venv/bin/pip install -r gdq/harvester/requirements.txt
 export DATABASE_URL='postgresql://postgres:postgres@localhost:54322/postgres'
 
 # Find and download an official file.
-gdq/cpc/.venv/bin/python -m gdq.cpc.download
+gdq/harvester/.venv/bin/python -m gdq.harvester.download
 
 # Verify the data structure and metadata.
-gdq/cpc/.venv/bin/python -m gdq.cpc.inspect gdq/cpc/data/cpc*.h5
+gdq/harvester/.venv/bin/python -m gdq.harvester.inspect gdq/harvester/data/cpc*.h5
 
 # Inspect one Zurich location.
-gdq/cpc/.venv/bin/python -m gdq.cpc.lookup \
-  --lat 47.3769 --lng 8.5417 --file gdq/cpc/data/cpc*.h5
+gdq/harvester/.venv/bin/python -m gdq.harvester.lookup \
+	--lat 47.3769 --lng 8.5417 --file gdq/harvester/data/cpc*.h5
 
 # Inspect the complete local workflow without writing.
-gdq/cpc/.venv/bin/python -m gdq.cpc --hours 336 --rounding half-up
+gdq/harvester/.venv/bin/python -m gdq.harvester --hours 336 --rounding half-up
 ```
 
 After review, write the available 14-day local backfill:
 
 ```bash
-gdq/cpc/.venv/bin/python -m gdq.cpc \
+gdq/harvester/.venv/bin/python -m gdq.harvester \
   --hours 336 --write --rounding half-up
 ```
 
@@ -180,7 +183,8 @@ FROM trees
 WHERE id IN ('tree-id-1', 'tree-id-2', 'tree-id-3');
 ```
 
-No weather-repository code is modified by this local CPC integration.
+The active CPC implementation is owned by the weather repository; no frontend
+code is modified by this integration.
 
 ## Acceptance criteria
 

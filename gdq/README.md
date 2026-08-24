@@ -54,7 +54,7 @@ npx supabase start
 
 Use the canonical instructions owned by each importer:
 
-- Rain — [MeteoSwiss CombiPrecip (CPC) local integration](cpc/README.md):
+- Rain — [MeteoSwiss CombiPrecip (CPC) local integration](https://github.com/aiviemarketing/guess-dis-quartier-weather/blob/main/gdq/harvester/README.md):
   environment setup, dry run, latest-hour import, 14-day backfill, precision,
   inspection, and tests.
 - Trees — [Zurich trees](https://github.com/aiviemarketing/guess-dis-quartier-postgres-api/blob/master/gdq/README.md#zurich-trees):
