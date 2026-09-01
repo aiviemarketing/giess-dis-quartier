@@ -193,11 +193,11 @@ Neugierig, welcher Baum vor Deiner Tür steht? Unsere interaktive Karte visualis
 
 Bäume bewässern und adoptieren:
 
-Du möchtest aktiv werden oder bist bereits aktiv am Giessen? Auf Güss dis Quartier kannst Du eintragen, ob und mit wie viel Wasser Du einen Baum gegossen hast. Bäume können auch adoptiert werden. Die adoptierten Bäume erscheinen im eigenen Nutzerprofil und können schneller wiedergefunden werden. So können andere Nachbarn in der Umgebung sehen, welche Bäume ihre Aufmerksamkeit benötigen. Um Bäume zu bewässern und zu adoptieren, lege dazu zunächst ein Profil mit einer gültigen Email-Adresse an und logge Dich im Anschluss ein. Nun kannst Du Deine Giess-Aktionen entsprechend dokumentieren und sehen, ob und wie oft Bäume in Deinem Kiez bereits von anderen Nutzer:innen gegossen wurden.
+Du möchtest aktiv werden oder bist bereits aktiv am Giessen? Auf Güss dis Quartier kannst Du eintragen, ob und mit wie viel Wasser Du einen Baum gegossen hast. Bäume können auch adoptiert werden. Die adoptierten Bäume erscheinen im eigenen Nutzerprofil und können schneller wiedergefunden werden. So können andere Nachbarn in der Umgebung sehen, welche Bäume ihre Aufmerksamkeit benötigen. Um Bäume zu bewässern und zu adoptieren, lege dazu zunächst ein Profil mit einer gültigen Email-Adresse an und logge Dich im Anschluss ein. Nun kannst Du Deine Giess-Aktionen entsprechend dokumentieren und sehen, ob und wie oft Bäume in Deinem Quartier bereits von anderen Nutzer:innen gegossen wurden.
 
 Vernetzen:
 
-Über unseren öffentlichen [GitHub Issues](https://github.com/aiviemarketing/guess-dis-quartier/issues) kannst Du Dich mit anderen Giesser:innen austauschen und defekte Pumpen in Deinem Kiez melden.`,
+Über unseren öffentlichen [GitHub Issues](https://github.com/aiviemarketing/guess-dis-quartier/issues) kannst Du Dich mit anderen Giesser:innen austauschen und defekte Pumpen in Deinem Quartier melden.`,
 				},
 				{
 					question:
@@ -213,7 +213,7 @@ Die Strassen- und Grünflächenämter giessen regelmässig mehrere tausend Bäum
 				{
 					question: "Wie giesse ich richtig?",
 					answer: `
-Je nach Alter, Standort und Baumart benötigen Bäume unterschiedlich viel Wasser. Insbesondere Jungbäume (0-10 Jahre) sind in Zeiten von Trockenheit, Strahlung und Hitze auf eine regelmässige Wässerung angewiesen. Die Grünstadt Zürich versorgen Jungbäume in der Regel bis zu einem Alter von 5 Jahren, wodurch besondern Junbäume im Alter zwischen 5 und 10 Jahren unsere Aufmerksamkeit benötigen.
+Je nach Alter, Standort und Baumart benötigen Bäume unterschiedlich viel Wasser. Insbesondere Jungbäume (0-10 Jahre) sind in Zeiten von Trockenheit, Strahlung und Hitze auf eine regelmässige Wässerung angewiesen. Die Grünstadt Zürich versorgen Jungbäume in der Regel bis zu einem Alter von 5 Jahren, wodurch besonders Jungbäume im Alter zwischen 5 und 10 Jahren unsere Aufmerksamkeit benötigen.
 
 Vor jeder Giessung solltet ihr euch den Baum zunächst anschauen und überlegen ob der Baum wirklich Wasser benötigt. Wichtige Indikatoren für bedarfsgerechtes giessen sind bspw. das Alter (jung/alt), der Stammunfang (dünn/dick), der Standort (sonnig/schattig) oder die Beschaffenheit frischer Triebe (kahl/grün) eines Baumes. Bevor ihr mit dem giessen loslegt, empfehlen wir den ausgetrockneten Boden vor dem Giessen aufzulockern, sodass das Wasser in den Boden eindringen kann und nicht oberirdisch abläuft oder sich falsch anstaut. Angelehnt an das Zürcher [Handbuch Gute Pflege](https://www.berlin.de/sen/uvk/natur-und-gruen/stadtgruen/pflegen-und-unterhalten/handbuch-gute-pflege), solltet ihr lieber selten, dafür mit grösseren Menge an Wasser zu giessen. Das Handbuch empfiehlt für frisch gepflanzte Bäume bis zu 200l pro Giessung. So sorgt ihr dafür, dass die Bodenfeuchte auch in der Tiefe erhöht wird.
 Auch zu empfehlen sind sogenannte Giesssäcke aus denen das Wasser nur sehr langsam austritt, kaum oberflächlich abläuft und somit kontinuierlich in den Boden sickert.
@@ -244,7 +244,7 @@ Auch zu empfehlen sind sogenannte Giesssäcke aus denen das Wasser nur sehr lang
 				},
 				{
 					question: "Ist das Prinzip auf andere Städte übertragbar?",
-					answer: `Die „Güss dis Quartier” Plattform ist ein Open Source Software Projekt und läuft unter einer MIT Lizenz. Dementsprechend kann die Idee, aber auch der Quellcode für die Umsetzung in anderen Städten kostenlos genutzt und weiterentwickelt werden. Wenn Du Dich dafür interessierst, schau gerne in unserem [Open Source GitHub Repository](https://github.com/aiviemarketing/guess-dis-quartier) vorbei oder kontaktiere uns via Mail. Wir unterstützen Deine Stadt auch gerne bei der technischen Umsetzung mit [DeineStadtgiesst](https://deinestadt.giessdenkiez.de/).`,
+					answer: `Die „Güss dis Quartier” Plattform ist ein Open Source Software Projekt und läuft unter einer MIT Lizenz. Dementsprechend kann die Idee, aber auch der Quellcode für die Umsetzung in anderen Städten kostenlos genutzt und weiterentwickelt werden. Wenn Du Dich dafür interessierst, schau gerne in unserem [Open Source GitHub Repository](https://github.com/aiviemarketing/guess-dis-quartier) vorbei oder kontaktiere uns via Mail.`,
 				},
 				{
 					question: "Ich habe immer noch eine Frage!",

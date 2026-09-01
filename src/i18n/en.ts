@@ -238,7 +238,7 @@ Use via smartphone (mobile network) can lead to performance problems (page loads
 				},
 				{
 					question: "Can the principle be transferred to other cities?",
-					answer: `The “Güss dis Quartier” platform is an open source software project and runs under an MIT license. Accordingly, the idea and also the source code can be used and further developed free of charge for implementation in other cities. If you are interested, please take a look at our [GitHub Repository](https://github.com/aiviemarketing/guess-dis-quartier) or contact us via email. We are also happy to support your city with the technical implementation via [DeineStadtgießt](https://deinestadt.giessdenkiez.de/).`,
+					answer: `The “Güss dis Quartier” platform is an open source software project and runs under an MIT license. Accordingly, the idea and also the source code can be used and further developed free of charge for implementation in other cities. If you are interested, please take a look at our [GitHub Repository](https://github.com/aiviemarketing/guess-dis-quartier) or contact us via email.`,
 				},
 				{
 					question: "I still have a question!",
